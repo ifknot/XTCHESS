@@ -1,2 +1,2 @@
 /Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c(63): Warning! W200: 'count' has been referenced but never assigned a value
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c(115): Warning! W200: 'size' has been referenced but never assigned a value
+/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c(109): Warning! W200: 'size' has been referenced but never assigned a value

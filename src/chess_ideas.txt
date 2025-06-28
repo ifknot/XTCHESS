@@ -1,0 +1,15 @@
+a bitboard (bb) is 64 bits 8 bytes 4 words
+a move bb is colour agnostic
+64 move bbs for one piece each board position is 8 x 64 = 512 bytes
+6 piece types 6 x 512 = 3072 - ie only 3K of memory
+
+bottom left square A1 ie white side is LSB of the bb
+top right square H8 ie black side is MSB of bb
+
+TODO:
+[x] bit count
+[x] ternary count (0, 1, many)
+[x] position extract
+[ ] inverse bb
+
+King on A1 ie LSB of the bb valid moves are B1, B2, A2 the bb hex would be

@@ -7,12 +7,7 @@
 #define XT_BITBOARD_H
 
 #include <stdint.h>
-
-/**
- * @typedef xt_bitboard_t
- * @brief A bitboard type represented as a 64-bit unsigned integer.
- */
-typedef uint64_t xt_bitboard_t;
+#include "xt_types.h"
 
 /**
  * @brief Counts the number of set bits (population count) in a bitboard.
@@ -46,13 +41,6 @@ typedef uint64_t xt_bitboard_t;
  * @note For chess engines, prefer this over __builtin_popcount
  */
 uint8_t xt_bit_count(xt_bitboard_t* bitboard);
-
-/**
- * @typedef xt_bitboard_t
- * @brief 64-bit bitboard representation for chess positions
- * @note Uses little-endian word ordering (bits 0-15 in first word)
- */
-typedef uint64_t xt_bitboard_t;
 
 /**
  * @brief Finds all set bits in a bitboard and records their positions
