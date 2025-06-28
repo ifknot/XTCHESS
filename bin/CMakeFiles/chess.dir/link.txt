@@ -1,0 +1,1 @@
+/opt/watcom/armo64/wlink option quiet name chess.exe opt map system dos debug all file {CMakeFiles/chess.dir/main.c.obj}

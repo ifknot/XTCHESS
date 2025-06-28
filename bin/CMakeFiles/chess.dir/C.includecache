@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jeremythornton/dosbox/XTCHESS/src/main.c
+stdio.h
+-
+
+/opt/watcom/h/_comdef.h
+
+/opt/watcom/h/cstdio
+_comdef.h
+-
+sys/_lfndos.h
+-
+
+/opt/watcom/h/stdio.h
+cstdio
+-
+_comdef.h
+-
+sys/_lfndos.h
+-
+
+/opt/watcom/h/sys/_lfndos.h
+

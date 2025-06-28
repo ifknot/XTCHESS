@@ -1,0 +1,3 @@
+/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir
+/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/edit_cache.dir
+/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/rebuild_cache.dir
