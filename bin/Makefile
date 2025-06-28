@@ -118,6 +118,102 @@ chess/fast: .SYMBOLIC
 chess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/build
 
+CHESS/xt_bitboard.obj: .SYMBOLIC
+CHESS/xt_bitboard.obj: CHESS/xt_bitboard.c.obj
+
+# target to build an object file
+CHESS/xt_bitboard.c.obj: .SYMBOLIC
+CHESS/xt_bitboard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj
+
+CHESS/xt_bitboard.i: .SYMBOLIC
+CHESS/xt_bitboard.i: CHESS/xt_bitboard.c.i
+
+# target to preprocess a source file
+CHESS/xt_bitboard.c.i: .SYMBOLIC
+CHESS/xt_bitboard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/CHESS/xt_bitboard.c.i
+
+CHESS/xt_bitboard.s: .SYMBOLIC
+CHESS/xt_bitboard.s: CHESS/xt_bitboard.c.s
+
+# target to generate assembly for a file
+CHESS/xt_bitboard.c.s: .SYMBOLIC
+CHESS/xt_bitboard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/CHESS/xt_bitboard.c.s
+
+TDD/tdd_progress.obj: .SYMBOLIC
+TDD/tdd_progress.obj: TDD/tdd_progress.c.obj
+
+# target to build an object file
+TDD/tdd_progress.c.obj: .SYMBOLIC
+TDD/tdd_progress.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_progress.c.obj
+
+TDD/tdd_progress.i: .SYMBOLIC
+TDD/tdd_progress.i: TDD/tdd_progress.c.i
+
+# target to preprocess a source file
+TDD/tdd_progress.c.i: .SYMBOLIC
+TDD/tdd_progress.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_progress.c.i
+
+TDD/tdd_progress.s: .SYMBOLIC
+TDD/tdd_progress.s: TDD/tdd_progress.c.s
+
+# target to generate assembly for a file
+TDD/tdd_progress.c.s: .SYMBOLIC
+TDD/tdd_progress.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_progress.c.s
+
+TDD/tdd_report.obj: .SYMBOLIC
+TDD/tdd_report.obj: TDD/tdd_report.c.obj
+
+# target to build an object file
+TDD/tdd_report.c.obj: .SYMBOLIC
+TDD/tdd_report.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_report.c.obj
+
+TDD/tdd_report.i: .SYMBOLIC
+TDD/tdd_report.i: TDD/tdd_report.c.i
+
+# target to preprocess a source file
+TDD/tdd_report.c.i: .SYMBOLIC
+TDD/tdd_report.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_report.c.i
+
+TDD/tdd_report.s: .SYMBOLIC
+TDD/tdd_report.s: TDD/tdd_report.c.s
+
+# target to generate assembly for a file
+TDD/tdd_report.c.s: .SYMBOLIC
+TDD/tdd_report.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_report.c.s
+
+TDD/tdd_spinner.obj: .SYMBOLIC
+TDD/tdd_spinner.obj: TDD/tdd_spinner.c.obj
+
+# target to build an object file
+TDD/tdd_spinner.c.obj: .SYMBOLIC
+TDD/tdd_spinner.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj
+
+TDD/tdd_spinner.i: .SYMBOLIC
+TDD/tdd_spinner.i: TDD/tdd_spinner.c.i
+
+# target to preprocess a source file
+TDD/tdd_spinner.c.i: .SYMBOLIC
+TDD/tdd_spinner.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_spinner.c.i
+
+TDD/tdd_spinner.s: .SYMBOLIC
+TDD/tdd_spinner.s: TDD/tdd_spinner.c.s
+
+# target to generate assembly for a file
+TDD/tdd_spinner.c.s: .SYMBOLIC
+TDD/tdd_spinner.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/TDD/tdd_spinner.c.s
+
 main.obj: .SYMBOLIC
 main.obj: main.c.obj
 
@@ -152,6 +248,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... chess"
+	@echo "... CHESS/xt_bitboard.obj"
+	@echo "... CHESS/xt_bitboard.i"
+	@echo "... CHESS/xt_bitboard.s"
+	@echo "... TDD/tdd_progress.obj"
+	@echo "... TDD/tdd_progress.i"
+	@echo "... TDD/tdd_progress.s"
+	@echo "... TDD/tdd_report.obj"
+	@echo "... TDD/tdd_report.i"
+	@echo "... TDD/tdd_report.s"
+	@echo "... TDD/tdd_spinner.obj"
+	@echo "... TDD/tdd_spinner.i"
+	@echo "... TDD/tdd_spinner.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

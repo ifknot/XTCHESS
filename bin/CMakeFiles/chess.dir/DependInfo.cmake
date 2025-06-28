@@ -8,6 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
+  "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
+  "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
+  "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"
   "/Users/jeremythornton/dosbox/XTCHESS/src/main.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "OpenWatcom")

@@ -19,6 +19,8 @@ add_compile_options(
 
 file(GLOB SOURCES
     *.c
+    TDD/*.c
+    CHESS/*.c
 )
 
 message(Source list="${SOURCES}")

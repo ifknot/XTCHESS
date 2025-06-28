@@ -1,8 +1,14 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include "TDD/tdd_macros.h"
+
+#include "CHESS/test_chess.h"
+
+RUN_TESTS(
+    POPCNT_TEST_SUITE
+)
 
 int main(int argc, char** argv) {
 
-    printf("XTCHESS!\n");
-    return 0;
+    return (run_tests()) ? EXIT_FAILURE : EXIT_SUCCESS;
 
 }

@@ -1,2 +1,4 @@
-/Users/jeremythornton/dosbox/XTCHESS/src/main.c(3): Warning! W303: Parameter 'argv' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/main.c(3): Warning! W303: Parameter 'argc' has been defined, but not referenced
+/Users/jeremythornton/dosbox/XTCHESS/src/main.c(10): Warning! W303: Parameter 'argv' has been defined, but not referenced
+/Users/jeremythornton/dosbox/XTCHESS/src/main.c(10): Warning! W303: Parameter 'argc' has been defined, but not referenced
+/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h(31): Warning! W202: Symbol 'tdd_death_jmp_buf' has been defined, but not referenced
+/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/test_chess.h(54): Warning! W202: Symbol 'test_xt_bit_count_null_ptr' has been defined, but not referenced

@@ -61,9 +61,61 @@ CMAKE_BINARY_DIR = /Users/jeremythornton/dosbox/XTCHESS/bin
 CMakeFiles/chess.dir/codegen: .SYMBOLIC
 CMakeFiles/chess.dir/codegen:
 
+CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj: /Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
+	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj -c -cc /Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
+
+CMakeFiles/chess.dir/CHESS/xt_bitboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/CHESS/xt_bitboard.c.i"
+	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/CHESS/xt_bitboard.c.i -pl -cc /Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
+
+CMakeFiles/chess.dir/CHESS/xt_bitboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/CHESS/xt_bitboard.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/chess.dir/TDD/tdd_progress.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/TDD/tdd_progress.c.obj: /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
+	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_progress.c.obj -c -cc /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.c
+
+CMakeFiles/chess.dir/TDD/tdd_progress.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/TDD/tdd_progress.c.i"
+	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_progress.c.i -pl -cc /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.c
+
+CMakeFiles/chess.dir/TDD/tdd_progress.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/TDD/tdd_progress.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/chess.dir/TDD/tdd_report.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/TDD/tdd_report.c.obj: /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
+	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_report.c.obj -c -cc /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.c
+
+CMakeFiles/chess.dir/TDD/tdd_report.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/TDD/tdd_report.c.i"
+	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_report.c.i -pl -cc /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.c
+
+CMakeFiles/chess.dir/TDD/tdd_report.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/TDD/tdd_report.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj: /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"
+	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_spinner.c.obj -c -cc /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.c
+
+CMakeFiles/chess.dir/TDD/tdd_spinner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/TDD/tdd_spinner.c.i"
+	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_spinner.c.i -pl -cc /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.c
+
+CMakeFiles/chess.dir/TDD/tdd_spinner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/TDD/tdd_spinner.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
 CMakeFiles/chess.dir/main.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/main.c.obj: /Users/jeremythornton/dosbox/XTCHESS/src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/chess.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/chess.dir/main.c.obj"
 	/opt/watcom/armo64/wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/main.c.obj -c -cc /Users/jeremythornton/dosbox/XTCHESS/src/main.c
 
 CMakeFiles/chess.dir/main.c.i: cmake_force
@@ -76,15 +128,23 @@ CMakeFiles/chess.dir/main.c.s: cmake_force
 
 # Object files for target chess
 chess_OBJECTS = &
+"'CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj'" &
+"'CMakeFiles/chess.dir/TDD/tdd_progress.c.obj'" &
+"'CMakeFiles/chess.dir/TDD/tdd_report.c.obj'" &
+"'CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj'" &
 "'CMakeFiles/chess.dir/main.c.obj'"
 
 # External object files for target chess
 chess_EXTERNAL_OBJECTS =
 
+chess.exe: CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj
+chess.exe: CMakeFiles/chess.dir/TDD/tdd_progress.c.obj
+chess.exe: CMakeFiles/chess.dir/TDD/tdd_report.c.obj
+chess.exe: CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj
 chess.exe: CMakeFiles/chess.dir/main.c.obj
 chess.exe: CMakeFiles/chess.dir/build.make
 chess.exe: CMakeFiles/chess.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable chess.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable chess.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chess.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
