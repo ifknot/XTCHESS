@@ -108,13 +108,14 @@ void bios_set_cursor_position(uint8_t x, uint8_t y, uint8_t video_page) {
  *	DH = row
  *	DL = column
  */
-void bios_get_cursor_position_size(bios_cursor_state_t* state) {
+void bios_get_cursor_position_size(bios_cursor_state_t* state, uint8_t video_page) {
     __asm {
         .8086
         pushf                                ; preserve what int BIOS functions may not
         push    ds                           ; due to unreliable behaviour
 
         mov		ah, BIOS_READ_CURSOR_POSITION_SIZE
+        mov     bh, video_page
         int		BIOS_VIDEO_SERVICES
         les	di, state
 		mov	es:[di], ch				; start_scanline
