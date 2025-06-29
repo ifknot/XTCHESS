@@ -19,8 +19,10 @@ add_compile_options(
 
 file(GLOB SOURCES
     *.c
-    TDD/*.c
+    BIOS/*c
     CHESS/*.c
+    MDA/*.c
+    TDD/*.c
 )
 
 message(Source list="${SOURCES}")

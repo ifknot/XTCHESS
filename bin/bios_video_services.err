@@ -1,0 +1,6 @@
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(171): Warning! W131: No prototype found for function 'printf'
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(171): Warning! W200: 'row' has been referenced but never assigned a value
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(171): Note! I2002: 'printf' defined in: /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(171)
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(171): Warning! W308: The function 'printf' without prototyped parameters called
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(171): Note! I2002: 'printf' defined in: /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(171)
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h(89): Warning! W202: Symbol 'bios_video_mode_names' has been defined, but not referenced

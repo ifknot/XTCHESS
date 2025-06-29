@@ -118,6 +118,78 @@ chess/fast: .SYMBOLIC
 chess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/build
 
+BIOS/bios_memory_size.obj: .SYMBOLIC
+BIOS/bios_memory_size.obj: BIOS/bios_memory_size.c.obj
+
+# target to build an object file
+BIOS/bios_memory_size.c.obj: .SYMBOLIC
+BIOS/bios_memory_size.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_memory_size.c.obj
+
+BIOS/bios_memory_size.i: .SYMBOLIC
+BIOS/bios_memory_size.i: BIOS/bios_memory_size.c.i
+
+# target to preprocess a source file
+BIOS/bios_memory_size.c.i: .SYMBOLIC
+BIOS/bios_memory_size.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_memory_size.c.i
+
+BIOS/bios_memory_size.s: .SYMBOLIC
+BIOS/bios_memory_size.s: BIOS/bios_memory_size.c.s
+
+# target to generate assembly for a file
+BIOS/bios_memory_size.c.s: .SYMBOLIC
+BIOS/bios_memory_size.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_memory_size.c.s
+
+BIOS/bios_timer_io_services.obj: .SYMBOLIC
+BIOS/bios_timer_io_services.obj: BIOS/bios_timer_io_services.c.obj
+
+# target to build an object file
+BIOS/bios_timer_io_services.c.obj: .SYMBOLIC
+BIOS/bios_timer_io_services.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.obj
+
+BIOS/bios_timer_io_services.i: .SYMBOLIC
+BIOS/bios_timer_io_services.i: BIOS/bios_timer_io_services.c.i
+
+# target to preprocess a source file
+BIOS/bios_timer_io_services.c.i: .SYMBOLIC
+BIOS/bios_timer_io_services.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.i
+
+BIOS/bios_timer_io_services.s: .SYMBOLIC
+BIOS/bios_timer_io_services.s: BIOS/bios_timer_io_services.c.s
+
+# target to generate assembly for a file
+BIOS/bios_timer_io_services.c.s: .SYMBOLIC
+BIOS/bios_timer_io_services.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.s
+
+BIOS/bios_video_services.obj: .SYMBOLIC
+BIOS/bios_video_services.obj: BIOS/bios_video_services.c.obj
+
+# target to build an object file
+BIOS/bios_video_services.c.obj: .SYMBOLIC
+BIOS/bios_video_services.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_video_services.c.obj
+
+BIOS/bios_video_services.i: .SYMBOLIC
+BIOS/bios_video_services.i: BIOS/bios_video_services.c.i
+
+# target to preprocess a source file
+BIOS/bios_video_services.c.i: .SYMBOLIC
+BIOS/bios_video_services.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_video_services.c.i
+
+BIOS/bios_video_services.s: .SYMBOLIC
+BIOS/bios_video_services.s: BIOS/bios_video_services.c.s
+
+# target to generate assembly for a file
+BIOS/bios_video_services.c.s: .SYMBOLIC
+BIOS/bios_video_services.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_video_services.c.s
+
 CHESS/xt_bitboard.obj: .SYMBOLIC
 CHESS/xt_bitboard.obj: CHESS/xt_bitboard.c.obj
 
@@ -248,6 +320,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... chess"
+	@echo "... BIOS/bios_memory_size.obj"
+	@echo "... BIOS/bios_memory_size.i"
+	@echo "... BIOS/bios_memory_size.s"
+	@echo "... BIOS/bios_timer_io_services.obj"
+	@echo "... BIOS/bios_timer_io_services.i"
+	@echo "... BIOS/bios_timer_io_services.s"
+	@echo "... BIOS/bios_video_services.obj"
+	@echo "... BIOS/bios_video_services.i"
+	@echo "... BIOS/bios_video_services.s"
 	@echo "... CHESS/xt_bitboard.obj"
 	@echo "... CHESS/xt_bitboard.i"
 	@echo "... CHESS/xt_bitboard.s"

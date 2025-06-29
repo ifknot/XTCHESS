@@ -6,20 +6,38 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/test_chess.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c
+stdint.h
+-
+bios_video_services_constants.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+bios_video_services.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
+
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
+bios_video_services_constants.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+bios_video_services_types.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+stdint.h
+-
+bios_video_services_constants.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/test_bios.h
 ../TDD/tdd_macros.h
 /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
-../CHESS/xt_bitboard.h
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
-
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
-xt_bitboard.h
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
-assert.h
--
-
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
-stdint.h
+../BIOS/bios_video_services.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
+bios_video_services_constants.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+bios_video_services_types.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+stdio.h
 -
 
 /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
@@ -73,14 +91,10 @@ stdlib.h
 -
 TDD/tdd_macros.h
 /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
-CHESS/test_chess.h
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/test_chess.h
+BIOS/test_bios.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/test_bios.h
 
 /opt/watcom/h/_comdef.h
-
-/opt/watcom/h/assert.h
-_comdef.h
--
 
 /opt/watcom/h/bios.h
 _comdef.h
