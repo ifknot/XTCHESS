@@ -29,7 +29,7 @@ void bios_get_cursor_position_and_size(bios_cursor_state_t* state, uint8_t video
 // INT 10,8 - Read character and attribute at cursor
 
 // INT 10,9 - Write character and attribute at cursor
-void bios_write_character_and_attribute_at_cursor(char chr, char attr);
+void bios_write_character_and_attribute_at_cursor(char chr, char attr, uint16_t count);
 
 // INT 10,A - Write character at current cursor
 // INT 10,B - Set color palette
