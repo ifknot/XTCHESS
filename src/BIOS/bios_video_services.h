@@ -26,16 +26,22 @@ void bios_get_cursor_position_and_size(bios_cursor_state_t* state, uint8_t video
 // INT 10,5 - Select active display page
 // INT 10,6 - Scroll active page up
 // INT 10,7 - Scroll active page down
+
 // INT 10,8 - Read character and attribute at cursor
+uint16_t bios_read_character_and_attribute_at_cursor(uint8_t video_page);
 
 // INT 10,9 - Write character and attribute at cursor
 void bios_write_character_and_attribute_at_cursor(char chr, char attr, uint16_t count, uint8_t video_page);
 
 // INT 10,A - Write character at current cursor
+void bios_write_character_at_cursor(char chr, uint8_t foreground_colour, uint16_t count, uint8_t video_page);
+
 // INT 10,B - Set color palette
 // INT 10,C - Write graphics pixel at coordinate
 // INT 10,D - Read graphics pixel at coordinate
+
 // INT 10,E - Write text in teletype mode
+void bios_write_text_teletype_mode(char chr, uint8_t foreground_colour, uint8_t video_page);
 
 // INT 10,F - Get current video state
 void bios_get_video_state(bios_video_state_t* state);
