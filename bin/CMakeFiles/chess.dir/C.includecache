@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c
+stdint.h
+-
+bios_video_services_constants.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+bios_video_services.h
+/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
+
 /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
 bios_video_services_constants.h
 /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h

@@ -133,7 +133,7 @@ void bios_get_cursor_position_and_size(bios_cursor_state_t* state, uint8_t video
 *	AH = 08
 *	BH = display page
 *	on return:
-*	AH = attribute of character 
+*	AH = attribute of character
 *	AL = character at cursor position
 * @note 1. attribute only valid in text modes
 * @note 2. video mode 4 (300x200 4 color) on the EGA, MCGA and VGA this function works only on page zero
@@ -162,7 +162,7 @@ uint16_t bios_read_character_and_attribute_at_cursor(uint8_t video_page) {
 *	BH = display page  (or mode 13h, background pixel value)
 *	BL = character attribute (text) foreground color (graphics)
 *	CX = count of characters to write (CX >= 1)
-*	@note 1. does not move the cursor
+*	@note 1. does *not* move the cursor
 *	@note 2. in graphics mode (except mode 13h), if BL bit 7=1 then value of BL is XOR'ed with the background color
 */
 void bios_write_character_and_attribute_at_cursor(char chr, char attr, uint16_t count, uint8_t video_page) {
@@ -171,7 +171,7 @@ void bios_write_character_and_attribute_at_cursor(char chr, char attr, uint16_t 
         pushf                                ; preserve what int BIOS functions may not
         push    ds                           ; due to unreliable behaviour
 
-		mov 	al, chr 
+		mov 	al, chr
 		mov 	bh, video_page
 		mov		bl, attr
 		mov 	cx, count
@@ -190,7 +190,9 @@ void bios_write_character_and_attribute_at_cursor(char chr, char attr, uint16_t 
 *	BH = display page  (or mode 13h, background pixel value)
 *	BL = foreground color (graphics mode only)
 *	CX = count of characters to write (CX >= 1)
-*	@note colour ignored in text modes
+*   @note 1. does *not* move the cursor
+*   @note 2. inherits the attribute at the cursor position
+*	@note 3. colour ignored in text modes
 */
 void bios_write_character_at_cursor(char chr, uint8_t foreground_colour, uint16_t count, uint8_t video_page) {
 	__asm {
@@ -198,7 +200,7 @@ void bios_write_character_at_cursor(char chr, uint8_t foreground_colour, uint16_
         pushf                                ; preserve what int BIOS functions may not
         push    ds                           ; due to unreliable behaviour
 
-		mov 	al, chr 
+		mov 	al, chr
 		mov 	bh, video_page
 		mov		bl, foreground_colour
 		mov 	cx, count
@@ -216,7 +218,7 @@ void bios_write_character_at_cursor(char chr, uint8_t foreground_colour, uint16_
 *	AL = ASCII character to write
 *	BH = page number (text modes)
 *	BL = foreground pixel color (graphics modes)
-*	@note 1. cursor advances after write
+*	@note 1. cursor advances after write *unless* it is a control code
 *	@note 2. characters BEL (7), BS (8), LF (A), and CR (D) are treated as control codes
 *	@note 3. for some older BIOS (10/19/81), the BH register must point to the currently displayed page
 */
@@ -226,7 +228,7 @@ void bios_write_text_teletype_mode(char chr, uint8_t foreground_colour, uint8_t 
         pushf                                ; preserve what int BIOS functions may not
         push    ds                           ; due to unreliable behaviour
 
-		mov 	al, chr 
+		mov 	al, chr
 		mov 	bh, video_page
 		mov		bl, foreground_colour
         mov		ah, BIOS_WRITE_TEXT_IN_TELETYPE_MODE
