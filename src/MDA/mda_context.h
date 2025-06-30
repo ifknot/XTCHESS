@@ -11,8 +11,11 @@ typedef union {
     } parts;
 } mda_char_attr_t;
 
+// having different contexts enables manage different parts of the screen in a window-esque way
+// TODO: add mouse support 
 typedef struct {
     char attribute;
+    char x, y, width, height;
     bios_video_state_t video;
     bios_cursor_state_t cursor;
 } mda_context_t;
