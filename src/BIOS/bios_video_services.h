@@ -20,7 +20,7 @@ void bios_set_cursor_type(uint8_t start_scan_line, uint8_t end_scan_line);
 void bios_set_cursor_position(uint8_t x, uint8_t y, uint8_t video_page);
 
 // INT 10,3 - Read cursor position and size
-void bios_get_cursor_position_size(bios_cursor_state_t* state, uint8_t video_page);
+void bios_get_cursor_position_and_size(bios_cursor_state_t* state, uint8_t video_page);
 
 // INT 10,4 - Read light pen
 // INT 10,5 - Select active display page
@@ -29,6 +29,7 @@ void bios_get_cursor_position_size(bios_cursor_state_t* state, uint8_t video_pag
 // INT 10,8 - Read character and attribute at cursor
 
 // INT 10,9 - Write character and attribute at cursor
+void bios_write_character_and_attribute_at_cursor(char chr, char attr);
 
 // INT 10,A - Write character at current cursor
 // INT 10,B - Set color palette
