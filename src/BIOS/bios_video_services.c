@@ -108,20 +108,129 @@ void bios_set_cursor_position(uint8_t x, uint8_t y, uint8_t video_page) {
  *	DH = row
  *	DL = column
  */
-void bios_get_cursor_position_size(bios_cursor_state_t* state, uint8_t video_page) {
+void bios_get_cursor_position_and_size(bios_cursor_state_t* state, uint8_t video_page) {
     __asm {
         .8086
         pushf                                ; preserve what int BIOS functions may not
         push    ds                           ; due to unreliable behaviour
 
+		mov     bh, video_page
         mov		ah, BIOS_READ_CURSOR_POSITION_SIZE
-        mov     bh, video_page
         int		BIOS_VIDEO_SERVICES
         les	di, state
 		mov	es:[di], ch				; start_scanline
 		mov	es:[di + 1], cl			; end_scanline
 		mov	es:[di + 2], dh			; row
 		mov	es:[di + 3], dl			; column
+
+        pop 	ds
+        popf
+	}
+}
+
+/**
+* @brief INT 10,8 - Read Character and Attribute at Cursor Position
+*	AH = 08
+*	BH = display page
+*	on return:
+*	AH = attribute of character 
+*	AL = character at cursor position
+* @note 1. attribute only valid in text modes
+* @note 2. video mode 4 (300x200 4 color) on the EGA, MCGA and VGA this function works only on page zero
+*/
+uint16_t bios_read_character_and_attribute_at_cursor(uint8_t video_page) {
+	uint16_t char_attr_pair;
+	__asm {
+        .8086
+        pushf                                ; preserve what int BIOS functions may not
+        push    ds                           ; due to unreliable behaviour
+
+        mov		ah, BIOS_READ_CHARACTER_AND_ATTRIBUTE_AT_CURSOR
+        int		BIOS_VIDEO_SERVICES
+		mov 	char_attr_pair, ax
+
+        pop 	ds
+        popf
+	}
+	return char_attr_pair;
+}
+
+/**
+* @brief INT 10,9 - Write Character and Attribute at Cursor Position
+* 	AH = 09
+*	AL = ASCII character to write
+*	BH = display page  (or mode 13h, background pixel value)
+*	BL = character attribute (text) foreground color (graphics)
+*	CX = count of characters to write (CX >= 1)
+*	@note 1. does not move the cursor
+*	@note 2. in graphics mode (except mode 13h), if BL bit 7=1 then value of BL is XOR'ed with the background color
+*/
+void bios_write_character_and_attribute_at_cursor(char chr, char attr, uint16_t count, uint8_t video_page) {
+	__asm {
+        .8086
+        pushf                                ; preserve what int BIOS functions may not
+        push    ds                           ; due to unreliable behaviour
+
+		mov 	al, chr 
+		mov 	bh, video_page
+		mov		bl, attr
+		mov 	cx, count
+        mov		ah, BIOS_WRITE_CHARACTER_AND_ATTRIBUTE_AT_CURSOR
+        int		BIOS_VIDEO_SERVICES
+
+        pop 	ds
+        popf
+	}
+}
+
+/**
+* @brief INT 10,A - Write Character Only at Current Cursor Position
+*	AH = 0A
+*	AL = ASCII character to write
+*	BH = display page  (or mode 13h, background pixel value)
+*	BL = foreground color (graphics mode only)
+*	CX = count of characters to write (CX >= 1)
+*	@note colour ignored in text modes
+*/
+void bios_write_character_at_cursor(char chr, uint8_t foreground_colour, uint16_t count, uint8_t video_page) {
+	__asm {
+        .8086
+        pushf                                ; preserve what int BIOS functions may not
+        push    ds                           ; due to unreliable behaviour
+
+		mov 	al, chr 
+		mov 	bh, video_page
+		mov		bl, foreground_colour
+		mov 	cx, count
+        mov		ah, BIOS_WRITE_CHARACTER_AT_CURRENT_CURSOR
+        int		BIOS_VIDEO_SERVICES
+
+        pop 	ds
+        popf
+	}
+}
+
+/**
+* @brief INT 10,E - Write Text in Teletype Mode
+*	AH = 0E
+*	AL = ASCII character to write
+*	BH = page number (text modes)
+*	BL = foreground pixel color (graphics modes)
+*	@note 1. cursor advances after write
+*	@note 2. characters BEL (7), BS (8), LF (A), and CR (D) are treated as control codes
+*	@note 3. for some older BIOS (10/19/81), the BH register must point to the currently displayed page
+*/
+void bios_write_text_teletype_mode(char chr, uint8_t foreground_colour, uint8_t video_page) {
+	__asm {
+        .8086
+        pushf                                ; preserve what int BIOS functions may not
+        push    ds                           ; due to unreliable behaviour
+
+		mov 	al, chr 
+		mov 	bh, video_page
+		mov		bl, foreground_colour
+        mov		ah, BIOS_WRITE_TEXT_IN_TELETYPE_MODE
+        int		BIOS_VIDEO_SERVICES
 
         pop 	ds
         popf
