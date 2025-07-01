@@ -34,7 +34,16 @@ void mda_reset_attributes(mda_context_t*ctx) {
 }
 
 void mda_print(mda_context_t*ctx, char* stringz) {
-
+    int i = 0;
+    while(stringz[i]) {
+        bios_write_character_and_attribute_at_cursor(stringz[i++], ctx->attributes, 1, ctx->video.page); 
+        ctx->x++;
+        if(ctx->x == ctx->width) {
+            ctx->x = 0;
+            (ctx->y++) % ctx->height;
+        }
+        bios_set_cursor_position(ctx->x, ctx->y, ctx->video.page);
+    }
 }
 
 bool mda_context_contains(mda_context_t*ctx, uint8_t x, uint8_t y) {
