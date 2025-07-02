@@ -1,7 +1,7 @@
 #include "mda_widgets.h" 
 #include "../BIOS/bios_video_service.h"
 
-void mda_widget_border(mda_context_t* ctx, char* border_charz, bool shrink_context) {
+void mda_widget_draw_border(mda_context_t* ctx, char* border_charz, bool shrink_context) {
   assert(border_charz && "NULL border characters");
 
   uint8_t x = ctx->x;
