@@ -214,6 +214,54 @@ CHESS/xt_bitboard.c.s: .SYMBOLIC
 CHESS/xt_bitboard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/CHESS/xt_bitboard.c.s
 
+MDA/mda_context.obj: .SYMBOLIC
+MDA/mda_context.obj: MDA/mda_context.c.obj
+
+# target to build an object file
+MDA/mda_context.c.obj: .SYMBOLIC
+MDA/mda_context.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_context.c.obj
+
+MDA/mda_context.i: .SYMBOLIC
+MDA/mda_context.i: MDA/mda_context.c.i
+
+# target to preprocess a source file
+MDA/mda_context.c.i: .SYMBOLIC
+MDA/mda_context.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_context.c.i
+
+MDA/mda_context.s: .SYMBOLIC
+MDA/mda_context.s: MDA/mda_context.c.s
+
+# target to generate assembly for a file
+MDA/mda_context.c.s: .SYMBOLIC
+MDA/mda_context.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_context.c.s
+
+MDA/mda_widgets.obj: .SYMBOLIC
+MDA/mda_widgets.obj: MDA/mda_widgets.c.obj
+
+# target to build an object file
+MDA/mda_widgets.c.obj: .SYMBOLIC
+MDA/mda_widgets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets.c.obj
+
+MDA/mda_widgets.i: .SYMBOLIC
+MDA/mda_widgets.i: MDA/mda_widgets.c.i
+
+# target to preprocess a source file
+MDA/mda_widgets.c.i: .SYMBOLIC
+MDA/mda_widgets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets.c.i
+
+MDA/mda_widgets.s: .SYMBOLIC
+MDA/mda_widgets.s: MDA/mda_widgets.c.s
+
+# target to generate assembly for a file
+MDA/mda_widgets.c.s: .SYMBOLIC
+MDA/mda_widgets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets.c.s
+
 TDD/tdd_progress.obj: .SYMBOLIC
 TDD/tdd_progress.obj: TDD/tdd_progress.c.obj
 
@@ -332,6 +380,12 @@ help:
 	@echo "... CHESS/xt_bitboard.obj"
 	@echo "... CHESS/xt_bitboard.i"
 	@echo "... CHESS/xt_bitboard.s"
+	@echo "... MDA/mda_context.obj"
+	@echo "... MDA/mda_context.i"
+	@echo "... MDA/mda_context.s"
+	@echo "... MDA/mda_widgets.obj"
+	@echo "... MDA/mda_widgets.i"
+	@echo "... MDA/mda_widgets.s"
 	@echo "... TDD/tdd_progress.obj"
 	@echo "... TDD/tdd_progress.i"
 	@echo "... TDD/tdd_progress.s"

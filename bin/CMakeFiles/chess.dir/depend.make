@@ -32,6 +32,34 @@ CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj: &
  /opt/watcom/h/assert.h &
  /opt/watcom/h/cstdint &
  /opt/watcom/h/stdint.h
+CMakeFiles/chess.dir/MDA/mda_context.c.obj: &
+ /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.c &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h &
+ /opt/watcom/h/_comdef.h &
+ /opt/watcom/h/assert.h &
+ /opt/watcom/h/cstdbool &
+ /opt/watcom/h/cstdint &
+ /opt/watcom/h/stdbool.h &
+ /opt/watcom/h/stdint.h
+CMakeFiles/chess.dir/MDA/mda_widgets.c.obj: &
+ /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/cp437_constants.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.c &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h &
+ /opt/watcom/h/_comdef.h &
+ /opt/watcom/h/assert.h &
+ /opt/watcom/h/cstdbool &
+ /opt/watcom/h/cstdint &
+ /opt/watcom/h/stdbool.h &
+ /opt/watcom/h/stdint.h
 CMakeFiles/chess.dir/TDD/tdd_progress.c.obj: &
  /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_on_escape.h &
  /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.c &
@@ -72,7 +100,10 @@ CMakeFiles/chess.dir/main.c.obj: &
  /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h &
  /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h &
  /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h &
- /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/test_bios.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h &
+ /Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h &
  /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h &
  /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_on_escape.h &
  /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.h &

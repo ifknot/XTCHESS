@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.obj"
   "CMakeFiles/chess.dir/BIOS/bios_video_services.c.obj"
   "CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
+  "CMakeFiles/chess.dir/MDA/mda_context.c.obj"
+  "CMakeFiles/chess.dir/MDA/mda_widgets.c.obj"
   "CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
   "CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
   "CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"

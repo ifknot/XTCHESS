@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c
-stdint.h
--
-bios_video_services_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
-bios_video_services.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
-
 /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
 bios_video_services_constants.h
 /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
@@ -28,15 +20,51 @@ stdint.h
 bios_video_services_constants.h
 /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/test_bios.h
-../TDD/tdd_macros.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/cp437_constants.h
+
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h
+
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
+
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.c
+mda_context.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
+mda_attributes.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h
+mda_constants.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
+assert.h
+-
+
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
 ../BIOS/bios_video_services.h
 /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
-bios_video_services_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
-bios_video_services_types.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+stdbool.h
+-
+
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.c
+mda_widgets.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h
+assert.h
+-
+
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h
+cp437_constants.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/cp437_constants.h
+mda_context.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
+stdbool.h
+-
+
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h
+../TDD/tdd_macros.h
+/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
+mda_attributes.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h
+mda_context.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
+mda_constants.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
 stdio.h
 -
 
@@ -91,10 +119,14 @@ stdlib.h
 -
 TDD/tdd_macros.h
 /Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
-BIOS/test_bios.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/test_bios.h
+MDA/test_mda_context.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h
 
 /opt/watcom/h/_comdef.h
+
+/opt/watcom/h/assert.h
+_comdef.h
+-
 
 /opt/watcom/h/bios.h
 _comdef.h

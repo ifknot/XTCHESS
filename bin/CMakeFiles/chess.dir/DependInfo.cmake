@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.obj"
   "/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/BIOS/bios_video_services.c.obj"
   "/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
+  "/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_context.c.obj"
+  "/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_widgets.c.obj"
   "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
   "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
   "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"
