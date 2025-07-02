@@ -38,20 +38,15 @@ void mda_reset_attributes(mda_context_t*ctx) {
     ctx->attributes = MDA_NORMAL;
 }
 
-void mda_print_char(mda_context_t ctx*, char chr, uint16_t count) {
+void mda_print_char(mda_context_t ctx*, char chr) {
     assert(ctx && "NULL context!");
-    if(!count) {
-        return;
+    bios_write_character_and_attribute_at_cursor(char, ctx->attributes, 1, ctx->video.page); 
+    ctx->x++;
+    if(ctx->x == ctx->width) {
+        ctx->x = 0;
+        (ctx->y++) % ctx->height;
     }
-    bios_write_character_and_attribute_at_cursor(stringz[i++], ctx->attributes, 1, ctx->video.page); 
-    for(int i = 0; i < count; ++i) {
-        ctx->x++;
-        if(ctx->x == ctx->width) {
-            ctx->x = 0;
-            (ctx->y++) % ctx->height;
-        }
-        bios_set_cursor_position(ctx->x, ctx->y, ctx->video.page);
-    }
+    bios_set_cursor_position(ctx->x, ctx->y, ctx->video.page);
 }
 
 
@@ -62,6 +57,26 @@ void mda_print_string(mda_context_t*ctx, char* stringz) {
     while(stringz[i]) {
         mda_print_char(stringz[i++]);
     }
+}
+
+void mda_print_row(mda_context_t ctx*, char chr, uint16_t count) {
+    assert(ctx && "NULL context!");
+    if(!count) {
+        return;
+    }
+    for(int i = 0; i < count; ++i) {
+        mda_print_char(char);
+    }
+}
+
+void mda_print_column(mda_context_t ctx*, char chr, uint16_t count) {
+    assert(ctx && "NULL context!");
+    if(!count) {
+        return;
+    }
+    bios_write_character_and_attribute_at_cursor(char, ctx->attributes, 1, ctx->video.page); 
+    (ctx->y++) % ctx->height;
+    bios_set_cursor_position(ctx->x, ctx->y, ctx->video.page);
 }
 
 bool mda_context_contains(mda_context_t*ctx, uint8_t x, uint8_t y) {
