@@ -13,6 +13,8 @@ static const char mda_widget_default_border[6] = {
   CP437_BOX_DOUBLE_VERTICAL     // ║
 }
 
+tyedef
+
 // progress bars, spinners, buttons etc
 // TODO: a composite pattern for widgets 
 // mda_widget_composite 
