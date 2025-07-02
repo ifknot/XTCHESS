@@ -116,7 +116,7 @@ typedef enum {
     // =============================================
     // Extended CP437: Box Drawing (0xB0-0xDF)
     // =============================================
-   CP437_LIGHT_SHADE            = 0xB0,  // ░
+    CP437_LIGHT_SHADE            = 0xB0,  // ░
     CP437_MEDIUM_SHADE           = 0xB1,  // ▒
     CP437_DARK_SHADE             = 0xB2,  // ▓
     CP437_BOX_VERTICAL           = 0xB3,  // │
