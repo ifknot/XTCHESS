@@ -12,8 +12,8 @@ void mda_initialize_default_context(mda_context_t* ctx) {
 }
 
 void mda_set_context_frame(mda_context_t*ctx, uint8_t x, uint8_t y, uint8_t width, uint8_t height) {
-    assert(x <= ctx->video.columns && "OUT OF RANGE x value!");
-    assert(y <= MDA_SCREEN_ROWS && "OUT OF RANGE y value!");
+    assert(x < ctx->video.columns && "OUT OF RANGE x value!");
+    assert(y < MDA_SCREEN_ROWS && "OUT OF RANGE y value!");
     ctx->x = x;
     ctx->y = y;
     ctx->width = width;
@@ -33,19 +33,24 @@ void mda_reset_attributes(mda_context_t*ctx) {
     ctx->attributes = MDA_NORMAL;
 }
 
-void mda_print(mda_context_t*ctx, char* stringz) {
+void mda_print_char(mda_context_t ctx*, char chr) {
+    bios_write_character_and_attribute_at_cursor(stringz[i++], ctx->attributes, 1, ctx->video.page); 
+    ctx->x++;
+    if(ctx->x == ctx->width) {
+        ctx->x = 0;
+        (ctx->y++) % ctx->height;
+    }
+    bios_set_cursor_position(ctx->x, ctx->y, ctx->video.page);
+}
+
+
+void mda_print_string(mda_context_t*ctx, char* stringz) {
     int i = 0;
     while(stringz[i]) {
-        bios_write_character_and_attribute_at_cursor(stringz[i++], ctx->attributes, 1, ctx->video.page); 
-        ctx->x++;
-        if(ctx->x == ctx->width) {
-            ctx->x = 0;
-            (ctx->y++) % ctx->height;
-        }
-        bios_set_cursor_position(ctx->x, ctx->y, ctx->video.page);
+        mda_print_char(stringz[i++]);
     }
 }
 
 bool mda_context_contains(mda_context_t*ctx, uint8_t x, uint8_t y) {
-    return x >=ctx->x && x <= ctx->width && y >= ctx->y && y<= ctx->height;
+    return x >=ctx->x && x < ctx->width && y >= ctx->y && y < ctx->height;
 }
