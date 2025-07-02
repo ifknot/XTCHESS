@@ -33,14 +33,16 @@ void mda_reset_attributes(mda_context_t*ctx) {
     ctx->attributes = MDA_NORMAL;
 }
 
-void mda_print_char(mda_context_t ctx*, char chr) {
+void mda_print_char(mda_context_t ctx*, char chr, uint16_t count) {
     bios_write_character_and_attribute_at_cursor(stringz[i++], ctx->attributes, 1, ctx->video.page); 
-    ctx->x++;
-    if(ctx->x == ctx->width) {
-        ctx->x = 0;
-        (ctx->y++) % ctx->height;
+    for(int i = 0; i < count; ++i) {
+        ctx->x++;
+        if(ctx->x == ctx->width) {
+            ctx->x = 0;
+            (ctx->y++) % ctx->height;
+        }
+        bios_set_cursor_position(ctx->x, ctx->y, ctx->video.page);
     }
-    bios_set_cursor_position(ctx->x, ctx->y, ctx->video.page);
 }
 
 
