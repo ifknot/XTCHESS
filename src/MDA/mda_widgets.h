@@ -13,7 +13,14 @@ static const char mda_widget_default_border[6] = {
   CP437_BOX_DOUBLE_VERTICAL     // ║
 }
 
-tyedef
+typedef enum {
+  INDEX_TOP_LEFT,
+  INDEX_TOP_RIGHT,
+  INDEX_BOTTOM_LEFT,
+  INDEX_BOTTOM_RIGHT,
+  INDEX_HORIZONTAL,
+  INDEX_VERTICAL
+} widget_index_t;
 
 // progress bars, spinners, buttons etc
 // TODO: a composite pattern for widgets 
