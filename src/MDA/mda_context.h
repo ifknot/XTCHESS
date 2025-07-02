@@ -31,9 +31,13 @@ void mda_set_attributes(mda_context_t*ctx,char attr);
 
 void mda_reset_attributes(mda_context_t*ctx);
 
-void mda_print_char(mda_context_t ctx*, char chr, uint16_t count);
+void mda_print_char(mda_context_t ctx*, char chr);
 
 void mda_print_string(mda_context_t*ctx, char* stringz); 
+
+void mda_print_row(mda_context_t ctx*, char chr, uint16_t count);
+
+void mda_print_column(mda_context_t ctx*, char chr, uint16_t count);
 
 bool mda_context_contains(mda_context_t*ctx, uint8_t x, uint8_t y);
 
