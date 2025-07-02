@@ -31,7 +31,7 @@ void mda_set_attributes(mda_context_t*ctx,char attr);
 
 void mda_reset_attributes(mda_context_t*ctx);
 
-void mda_print_char(mda_context_t ctx*, char chr);
+void mda_print_char(mda_context_t ctx*, char chr, uint16_t count);
 
 void mda_print_string(mda_context_t*ctx, char* stringz); 
 
