@@ -5,6 +5,7 @@
 #include "mda_attributes.h"
 #include "mda_context.h"
 #include "mda_constants.h"
+#include "mda_widgets.h"
 #include <stdio.h>
 
 #define MDA_CONTEXT_TESTS &mda_context_test \
@@ -39,7 +40,17 @@ TEST(mda_context_test) {
     mda_print_string(&ctx, "hello!");
     mda_print_row(&ctx, CP437_RIGHT_ARROW_IBM, 10);
     mda_print_column(&ctx, CP437_DOWN_ARROW, 11);
+    
+    mda_set_context_frame(&ctx, 10, 11, 10, 11);
+    mda_print_row(&ctx, CP437_RIGHT_ARROW_IBM, 20);
+    mda_print_column(&ctx, CP437_DOWN_ARROW, 20);
+    
     getchar();
+}
+
+TEST(mda_widgets_test) {
+    mda_context_t ctx;
+    //mda_widget_context_border(
 }
 
 #endif
