@@ -26,26 +26,10 @@ bios_video_services_constants.h
 
 /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.c
-mda_context.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
-mda_attributes.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h
-mda_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
-assert.h
--
-
 /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
 ../BIOS/bios_video_services.h
 /Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
 stdbool.h
--
-
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.c
-mda_widgets.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h
-assert.h
 -
 
 /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h
@@ -65,6 +49,8 @@ mda_context.h
 /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
 mda_constants.h
 /Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
+mda_widgets.h
+/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h
 stdio.h
 -
 
@@ -123,10 +109,6 @@ MDA/test_mda_context.h
 /Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h
 
 /opt/watcom/h/_comdef.h
-
-/opt/watcom/h/assert.h
-_comdef.h
--
 
 /opt/watcom/h/bios.h
 _comdef.h

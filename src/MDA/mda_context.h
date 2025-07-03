@@ -40,6 +40,10 @@ void mda_lf(mda_context_t* ctx);
 
 void mda_crlf(mda_context_t* ctx);
 
+void mda_backspace(mda_context_t* ctx);
+
+void mda_delete(mda_context_t* ctx);
+
 void mda_print_char(mda_context_t* ctx, char chr);
 
 void mda_print_string(mda_context_t* ctx, char* stringz);

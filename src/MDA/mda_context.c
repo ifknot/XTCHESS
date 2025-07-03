@@ -26,7 +26,6 @@ void mda_set_context_frame(mda_context_t* ctx, uint8_t x, uint8_t y, uint8_t wid
 void mda_cursor_to(mda_context_t* ctx, uint8_t x, uint8_t y) {
     assert(ctx && "NULL context!");
     assert(mda_context_contains(ctx, x, y) && "OUT OF BOUNDS cursor position!");
-    ctx->cursor.column = x
     bios_set_cursor_position(x, y, ctx->video.page);
     bios_get_cursor_position_and_size(&ctx->cursor, ctx->video.page);
 }
@@ -42,21 +41,41 @@ void mda_reset_attributes(mda_context_t* ctx) {
 }
 
 void mda_cursor_advance(mda_context_t* ctx) {
+    assert(ctx && "NULL context!");
     ctx->cursor.column++;
     if(ctx->cursor.column == (ctx->x + ctx->width)) {
         mda_crlf(ctx);
+        return;
     }
+    bios_set_cursor_position(ctx->cursor.column, ctx->cursor.row, ctx->video.page);
 }
 
 void mda_lf(mda_context_t* ctx) {
+    assert(ctx && "NULL context!");
     ctx->cursor.row++;
-    ctx->cursor.row %= (ctx->y + ctx->height);
+    if(ctx->cursor.row == (ctx->y + ctx->height)) {
+        ctx->cursor.row = ctx->y;
+    }
     bios_set_cursor_position(ctx->cursor.column, ctx->cursor.row, ctx->video.page);
 }
 
 void mda_crlf(mda_context_t* ctx) {
+    assert(ctx && "NULL context!");
     ctx->cursor.column = ctx->x;
     mda_lf(ctx);
+}
+
+void mda_backspace(mda_context_t* ctx) {
+    assert(ctx && "NULL context!");
+    if(ctx->cursor.column > ctx->x) {
+        ctx->cursor.column--;
+    }
+}
+
+void mda_delete(mda_context_t* ctx) {
+    assert(ctx && "NULL context!");
+    mda_backspace(ctx);
+    bios_write_character_and_attribute_at_cursor(' ', ctx->attributes, 1, ctx->video.page);
 }
 
 void mda_print_char(mda_context_t* ctx, char chr) {
@@ -64,7 +83,6 @@ void mda_print_char(mda_context_t* ctx, char chr) {
     bios_write_character_and_attribute_at_cursor(chr, ctx->attributes, 1, ctx->video.page);
     mda_cursor_advance(ctx);
 }
-
 
 void mda_print_string(mda_context_t* ctx, char* stringz) {
     assert(ctx && "NULL context!");
@@ -93,6 +111,7 @@ void mda_print_column(mda_context_t* ctx, char chr, uint16_t count) {
     for(int i = 0; i < count; ++i) {
         bios_write_character_and_attribute_at_cursor(chr, ctx->attributes, 1, ctx->video.page);
         mda_lf(ctx);
+
     }
 }
 
