@@ -36,6 +36,8 @@ void mda_reset_attributes(mda_context_t* ctx);
 
 void mda_cursor_advance(mda_context_t* ctx);
 
+void mda_lf(mda_context_t* ctx);
+
 void mda_crlf(mda_context_t* ctx);
 
 void mda_print_char(mda_context_t* ctx, char chr);
