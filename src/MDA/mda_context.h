@@ -12,7 +12,7 @@ typedef union {
     } parts;
 } mda_char_attr_t;
 
-// having differentctxs enables manage different parts of the screen in a window-esque way
+// having different contexts enables manage different parts of the screen in a window-esque way
 typedef struct {
     char attributes;
     char x;
