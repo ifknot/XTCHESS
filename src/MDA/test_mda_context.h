@@ -37,6 +37,8 @@ TEST(mda_context_test) {
     mda_print_char(&ctx, '*');
     mda_crlf(&ctx);
     mda_print_string(&ctx, "hello!");
+    mda_print_row(&ctx, CP437_RIGHT_ARROW_IBM, 10);
+    mda_print_column(&ctx, CP437_DOWN_ARROW, 11);
     getchar();
 }
 
