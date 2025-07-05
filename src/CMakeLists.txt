@@ -17,6 +17,16 @@ add_compile_options(
     #-dNDEBUG
 )
 
+# Toolchain-watcom.cmake
+set(CMAKE_SYSTEM_NAME DOS)  # Target DOS
+set(CMAKE_C_COMPILER wcl)
+set(CMAKE_CXX_COMPILER wcl)
+set(CMAKE_LINKER wlink)  # Use Watcom's linker
+
+# Watcom-specific flags
+set(CMAKE_C_FLAGS "-bt=dos -l=dos")
+set(CMAKE_EXE_LINKER_FLAGS "system dos")
+
 file(GLOB SOURCES
     *.c
     BIOS/*c

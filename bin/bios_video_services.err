@@ -1,3 +1,0 @@
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(203): Warning! W200: 'char_attr_pair' has been referenced but never assigned a value
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c(181): Warning! W303: Parameter 'video_page' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h(89): Warning! W202: Symbol 'bios_video_mode_names' has been defined, but not referenced

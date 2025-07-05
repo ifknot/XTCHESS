@@ -1,8 +1,0 @@
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h(51): Warning! W202: Symbol 'ctx' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h(50): Warning! W303: Parameter 'pass' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/main.c(14): Warning! W303: Parameter 'argv' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/main.c(14): Warning! W303: Parameter 'argc' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/../BIOS/bios_video_services_constants.h(89): Warning! W202: Symbol 'bios_video_mode_names' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h(31): Warning! W202: Symbol 'tdd_death_jmp_buf' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h(8): Warning! W202: Symbol 'mda_widget_default_border' has been defined, but not referenced
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h(50): Warning! W202: Symbol 'mda_widgets_test' has been defined, but not referenced

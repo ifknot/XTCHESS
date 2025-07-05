@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_memory_size.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/BIOS/bios_memory_size.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/BIOS/bios_video_services.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_context.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_widgets.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"
-  "/Users/jeremythornton/dosbox/XTCHESS/src/main.c" "/Users/jeremythornton/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/main.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_memory_size.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/BIOS/bios_memory_size.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/BIOS/bios_video_services.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_context.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_widgets.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_report.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_spinner.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/main.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "OpenWatcom")
 
