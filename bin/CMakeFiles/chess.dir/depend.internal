@@ -100,6 +100,9 @@ CMakeFiles/chess.dir/main.c.obj
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+ /home/jeremy/dosbox/XTCHESS/src/CHESS/test_chess.h
+ /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
+ /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_types.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_attributes.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_constants.h

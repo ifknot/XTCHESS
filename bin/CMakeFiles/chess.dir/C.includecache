@@ -56,6 +56,12 @@ stdint.h
 bios_video_services_constants.h
 /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
 
+/home/jeremy/dosbox/XTCHESS/src/CHESS/test_chess.h
+../TDD/tdd_macros.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_macros.h
+../CHESS/xt_bitboard.h
+/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
+
 /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
 xt_bitboard.h
 /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
@@ -203,6 +209,8 @@ stdlib.h
 -
 TDD/tdd_macros.h
 /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_macros.h
+CHESS/test_chess.h
+/home/jeremy/dosbox/XTCHESS/src/CHESS/test_chess.h
 MDA/test_mda_context.h
 /home/jeremy/dosbox/XTCHESS/src/MDA/test_mda_context.h
 
