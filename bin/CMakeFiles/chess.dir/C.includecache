@@ -6,125 +6,125 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_memory_size.c
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_memory_size.c
 bios_memory_size.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_memory_size.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_memory_size.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_memory_size.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_memory_size.h
 stdint.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_constants.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_timer_io_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.c
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.c
 stdint.h
 -
 stdio.h
 -
 bios_timer_io_services.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.h
 bios_timer_io_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_constants.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_timer_io_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_timer_io_services.h
 bios_timer_io_types.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_types.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_timer_io_types.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_timer_io_types.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_timer_io_types.h
 stdint.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.c
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.c
 stdint.h
 -
 bios_video_services_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
 bios_video_services.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h
 bios_video_services_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
 bios_video_services_types.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
 stdint.h
 -
 bios_video_services_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
+/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
 xt_bitboard.h
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
+/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
 assert.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
+/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.h
 stdint.h
 -
 xt_types.h
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_types.h
+/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_types.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/CHESS/xt_types.h
+/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_types.h
 stdint.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/cp437_constants.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_attributes.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.c
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.c
 mda_context.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
 mda_attributes.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_attributes.h
 mda_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_constants.h
 assert.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
 ../BIOS/bios_video_services.h
-/Users/jeremythornton/dosbox/XTCHESS/src/BIOS/bios_video_services.h
+/home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h
 stdbool.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.c
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.c
 mda_widgets.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.h
 assert.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.h
 cp437_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/cp437_constants.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
 mda_context.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
 stdbool.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/test_mda_context.h
 ../TDD/tdd_macros.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_macros.h
 mda_attributes.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_attributes.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_attributes.h
 mda_context.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_context.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
 mda_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_constants.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_constants.h
 mda_widgets.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/mda_widgets.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.h
 stdio.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_constants.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_macros.h
 stddef.h
 -
 stdio.h
@@ -140,15 +140,15 @@ time.h
 math.h
 -
 tdd_report.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_report.h
 tdd_progress.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.h
 setjmp.h
 -
 signal.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_on_escape.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_on_escape.h
 stdio.h
 -
 bios.h
@@ -156,55 +156,55 @@ bios.h
 conio.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.c
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.c
 tdd_progress.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.h
 stdio.h
 -
 assert.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_progress.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.h
 tdd_types.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_types.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_types.h
 tdd_on_escape.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_on_escape.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_on_escape.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.c
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_report.c
 tdd_report.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_report.h
 time.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_report.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_report.h
 stdio.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.c
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_spinner.c
 tdd_spinner.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_spinner.h
 stdio.h
 -
 string.h
 -
 tdd_constants.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_constants.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_constants.h
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_spinner.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_spinner.h
 stdlib.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_types.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_types.h
 stdint.h
 -
 
-/Users/jeremythornton/dosbox/XTCHESS/src/main.c
+/home/jeremy/dosbox/XTCHESS/src/main.c
 stdlib.h
 -
 TDD/tdd_macros.h
-/Users/jeremythornton/dosbox/XTCHESS/src/TDD/tdd_macros.h
+/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_macros.h
 MDA/test_mda_context.h
-/Users/jeremythornton/dosbox/XTCHESS/src/MDA/test_mda_context.h
+/home/jeremy/dosbox/XTCHESS/src/MDA/test_mda_context.h
 
 /opt/watcom/h/_comdef.h
 

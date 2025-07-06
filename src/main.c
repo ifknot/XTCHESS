@@ -5,6 +5,17 @@
 //#include "BIOS/test_bios.h"
 #include "MDA/test_mda_context.h"
 
+/*
+ * TODO:
+ * [ ] bios scrolling
+ * [ ] upgraded context
+ * [ ] widget composite pattern
+ * [ ] chess board
+ * [ ] maps
+ * [ ] locations with doors
+ * [ ] parse moving around locations
+ */
+
 RUN_TESTS(
     //POPCNT_TEST_SUITE
     //BIOS_VIDEO_TESTS
