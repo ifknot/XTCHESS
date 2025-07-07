@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
   "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_context.c.obj"
   "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_widgets.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_rtti.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_widgets_rtti.c.obj"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_uid.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/MDA/mda_widgets_uid.c.obj"
   "/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
   "/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_report.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
   "/home/jeremy/dosbox/XTCHESS/src/TDD/tdd_spinner.c" "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"

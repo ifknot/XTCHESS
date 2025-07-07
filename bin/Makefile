@@ -296,6 +296,54 @@ MDA/mda_widgets.c.s: .SYMBOLIC
 MDA/mda_widgets.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets.c.s
 
+MDA/mda_widgets_rtti.obj: .SYMBOLIC
+MDA/mda_widgets_rtti.obj: MDA/mda_widgets_rtti.c.obj
+
+# target to build an object file
+MDA/mda_widgets_rtti.c.obj: .SYMBOLIC
+MDA/mda_widgets_rtti.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets_rtti.c.obj
+
+MDA/mda_widgets_rtti.i: .SYMBOLIC
+MDA/mda_widgets_rtti.i: MDA/mda_widgets_rtti.c.i
+
+# target to preprocess a source file
+MDA/mda_widgets_rtti.c.i: .SYMBOLIC
+MDA/mda_widgets_rtti.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets_rtti.c.i
+
+MDA/mda_widgets_rtti.s: .SYMBOLIC
+MDA/mda_widgets_rtti.s: MDA/mda_widgets_rtti.c.s
+
+# target to generate assembly for a file
+MDA/mda_widgets_rtti.c.s: .SYMBOLIC
+MDA/mda_widgets_rtti.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets_rtti.c.s
+
+MDA/mda_widgets_uid.obj: .SYMBOLIC
+MDA/mda_widgets_uid.obj: MDA/mda_widgets_uid.c.obj
+
+# target to build an object file
+MDA/mda_widgets_uid.c.obj: .SYMBOLIC
+MDA/mda_widgets_uid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets_uid.c.obj
+
+MDA/mda_widgets_uid.i: .SYMBOLIC
+MDA/mda_widgets_uid.i: MDA/mda_widgets_uid.c.i
+
+# target to preprocess a source file
+MDA/mda_widgets_uid.c.i: .SYMBOLIC
+MDA/mda_widgets_uid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets_uid.c.i
+
+MDA/mda_widgets_uid.s: .SYMBOLIC
+MDA/mda_widgets_uid.s: MDA/mda_widgets_uid.c.s
+
+# target to generate assembly for a file
+MDA/mda_widgets_uid.c.s: .SYMBOLIC
+MDA/mda_widgets_uid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widgets_uid.c.s
+
 TDD/tdd_progress.obj: .SYMBOLIC
 TDD/tdd_progress.obj: TDD/tdd_progress.c.obj
 
@@ -423,6 +471,12 @@ help:
 	@echo "... MDA/mda_widgets.obj"
 	@echo "... MDA/mda_widgets.i"
 	@echo "... MDA/mda_widgets.s"
+	@echo "... MDA/mda_widgets_rtti.obj"
+	@echo "... MDA/mda_widgets_rtti.i"
+	@echo "... MDA/mda_widgets_rtti.s"
+	@echo "... MDA/mda_widgets_uid.obj"
+	@echo "... MDA/mda_widgets_uid.i"
+	@echo "... MDA/mda_widgets_uid.s"
 	@echo "... TDD/tdd_progress.obj"
 	@echo "... TDD/tdd_progress.i"
 	@echo "... TDD/tdd_progress.s"

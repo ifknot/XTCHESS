@@ -20,7 +20,6 @@ mda_widget_type_t mda_widget_rtti_type(mda_widget_rtti_t rtti);
 
 mda_widget_size_t mda_widget_rtti_uid(mda_widget_rtti_t rtti);
 
-
 bool mda_widget_is_typeof(
     mda_widget_rtti_t rtti,
     mda_widget_type_t type

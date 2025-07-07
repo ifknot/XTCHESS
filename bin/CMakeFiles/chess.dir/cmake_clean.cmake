@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
   "CMakeFiles/chess.dir/MDA/mda_context.c.obj"
   "CMakeFiles/chess.dir/MDA/mda_widgets.c.obj"
+  "CMakeFiles/chess.dir/MDA/mda_widgets_rtti.c.obj"
+  "CMakeFiles/chess.dir/MDA/mda_widgets_uid.c.obj"
   "CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
   "CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
   "CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"

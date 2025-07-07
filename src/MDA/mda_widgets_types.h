@@ -10,7 +10,7 @@ typedef uint32_t mda_widget_fingerprint_t;
 
 typedef uint16_t mda_widget_type_t;
 
-static const char mda_widget_default_border[6] = {
+static const unsigned char mda_widget_default_border[6] = {
   CP437_BOX_DOUBLE_DOWN_RIGHT,  // ╔
   CP437_BOX_DOUBLE_DOWN_LEFT,   // ╗
   CP437_BOX_DOUBLE_UP_LEFT,     // ╝

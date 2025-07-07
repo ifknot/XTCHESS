@@ -35,14 +35,25 @@ TEST(mda_context_test) {
     mda_cursor_to(&ctx, 1, 2);
         EXPECT_EQ(ctx.cursor.column, 1);
         EXPECT_EQ(ctx.cursor.row, 2);
-    mda_print_char(&ctx, '*');
-    mda_crlf(&ctx);
-    mda_print_string(&ctx, "hello!");
-    mda_print_row(&ctx, CP437_RIGHT_ARROW_IBM, 10);
-    mda_print_column(&ctx, CP437_DOWN_ARROW, 11);
+    mda_write_char(&ctx, '*');
+    mda_write_row(&ctx, '.', ctx.video.columns);
+    mda_write_string(&ctx, "DELETEEME");
+    mda_ascii_DEL(&ctx);
+    mda_ascii_DEL(&ctx);
+    mda_write_char(&ctx, '!');
+    mda_ascii_BS(&ctx);
+    mda_ascii_BS(&ctx);
+    mda_write_char(&ctx, ' ');
+    mda_write_CRLF(&ctx);
+    mda_write_string(&ctx, "hello!");
+    mda_ascii_HT(&ctx);
+    mda_write_row(&ctx, CP437_RIGHT_ARROW_IBM, 20);
+    mda_write_column(&ctx, CP437_DOWN_ARROW, 11);
     mda_set_context_frame(&ctx, 40, 2, 10, 11);
-    mda_print_row(&ctx, CP437_RIGHT_ARROW_IBM, 20);
-    mda_print_column(&ctx, CP437_DOWN_ARROW, 20);
+    mda_write_row(&ctx, CP437_RIGHT_ARROW_IBM, 20);
+    mda_write_column(&ctx, CP437_DOWN_ARROW, 20);
+
+    mda_ascii_BEL(&ctx);
 
     getchar();
 }

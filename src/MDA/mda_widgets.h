@@ -5,6 +5,8 @@
 
 #define MDA_WIDGET_MAX_CHILDREN    16
 
+typedef struct mda_widget_component_t mda_widget_component_t;
+
 typedef struct mda_widget_component_t { // component base
     mda_widget_rtti_t rtti;
     mda_widget_component_t* parent;

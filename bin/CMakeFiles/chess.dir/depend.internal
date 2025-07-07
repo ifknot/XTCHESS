@@ -36,6 +36,7 @@ CMakeFiles/chess.dir/MDA/mda_context.c.obj
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/ascii_control_codes.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_attributes.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_constants.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.c
@@ -54,11 +55,32 @@ CMakeFiles/chess.dir/MDA/mda_widgets.c.obj
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.c
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_rtti.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_types.h
  /opt/watcom/h/_comdef.h
  /opt/watcom/h/assert.h
  /opt/watcom/h/cstdbool
  /opt/watcom/h/cstdint
  /opt/watcom/h/stdbool.h
+ /opt/watcom/h/stdint.h
+CMakeFiles/chess.dir/MDA/mda_widgets_rtti.c.obj
+ /home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_rtti.c
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_rtti.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_types.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_uid.h
+ /opt/watcom/h/cstdbool
+ /opt/watcom/h/cstdint
+ /opt/watcom/h/stdbool.h
+ /opt/watcom/h/stdint.h
+CMakeFiles/chess.dir/MDA/mda_widgets_uid.c.obj
+ /home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_types.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_uid.c
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_uid.h
+ /opt/watcom/h/_comdef.h
+ /opt/watcom/h/assert.h
+ /opt/watcom/h/cstdint
  /opt/watcom/h/stdint.h
 CMakeFiles/chess.dir/TDD/tdd_progress.c.obj
  /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_on_escape.h
@@ -105,6 +127,8 @@ CMakeFiles/chess.dir/main.c.obj
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_constants.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_rtti.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_types.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/test_mda_context.h
  /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_macros.h
  /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_on_escape.h

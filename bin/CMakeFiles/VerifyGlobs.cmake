@@ -39,6 +39,8 @@ file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/jeremy/dosbox/XTCHESS/src/MDA/*.
 set(OLD_GLOB
   "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.c"
   "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.c"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_rtti.c"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_uid.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
