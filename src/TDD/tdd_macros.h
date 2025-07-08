@@ -28,8 +28,6 @@
 #include <setjmp.h>
 #include <signal.h>
 
-static jmp_buf tdd_death_jmp_buf;
-
 /**
  * @brief Conditional verbose output macro
  * @param expr Expression to execute only in debug mode
