@@ -161,8 +161,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/CMakeScratch/TryCompile-HX03Y5"
-      binary: "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/CMakeScratch/TryCompile-HX03Y5"
+      source: "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/CMakeScratch/TryCompile-LhQh60"
+      binary: "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/CMakeScratch/TryCompile-LhQh60"
     cmakeVariables:
       CMAKE_C_FLAGS: "-w3 -bt=dos"
       CMAKE_C_FLAGS_DEBUG: "-d2"
@@ -171,20 +171,20 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/CMakeScratch/TryCompile-HX03Y5'
+        Change Dir: '/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/CMakeScratch/TryCompile-LhQh60'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 wmake -f Makefile cmTC_d5f1f/fast
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 wmake -f Makefile cmTC_6fc26/fast
         Open Watcom Make Version 2.0 beta Jul  5 2025 17:09:03 (64-bit)
         Copyright (c) 2002-2025 The Open Watcom Contributors. All Rights Reserved.
         Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
         Source code is available under the Sybase Open Watcom Public License.
         See https://github.com/open-watcom/open-watcom-v2#readme for details.
-        	/opt/watcom/binl64/wmake  -f CMakeFiles/cmTC_d5f1f.dir/build.make -h CMakeFiles/cmTC_d5f1f.dir/build
-        Building C object CMakeFiles/cmTC_d5f1f.dir/CMakeCCompilerABI.c.obj
-        /opt/watcom/binl64/wcl -zq -d+  -I"/opt/watcom/h" -w3 -bt=dos -d2 -foCMakeFiles/cmTC_d5f1f.dir/CMakeCCompilerABI.c.obj -c -cc /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
-        Linking C executable cmTC_d5f1f.exe
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5f1f.dir/link.txt --verbose=1
-        /opt/watcom/binl64/wlink option quiet name cmTC_d5f1f.exe opt map system dos  debug all file {CMakeFiles/cmTC_d5f1f.dir/CMakeCCompilerABI.c.obj} 
+        	/opt/watcom/binl64/wmake  -f CMakeFiles/cmTC_6fc26.dir/build.make -h CMakeFiles/cmTC_6fc26.dir/build
+        Building C object CMakeFiles/cmTC_6fc26.dir/CMakeCCompilerABI.c.obj
+        /opt/watcom/binl64/wcl -zq -d+  -I"/opt/watcom/h" -w3 -bt=dos -d2 -foCMakeFiles/cmTC_6fc26.dir/CMakeCCompilerABI.c.obj -c -cc /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Linking C executable cmTC_6fc26.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fc26.dir/link.txt --verbose=1
+        /opt/watcom/binl64/wlink option quiet name cmTC_6fc26.exe opt map system dos  debug all file {CMakeFiles/cmTC_6fc26.dir/CMakeCCompilerABI.c.obj} 
         
       exitCode: 0
 ...

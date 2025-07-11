@@ -1,5 +1,5 @@
-#include "mda_widgets_uid.h"
-#include "mda_widgets_types.h"
+#include "mda_widget_uid.h"
+#include "mda_widget_types.h"
 #include <assert.h>
 
 struct mda_widget_uid_t {

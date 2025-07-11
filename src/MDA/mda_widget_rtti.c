@@ -1,6 +1,6 @@
-#include "mda_widgets_rtti.h"
-#include "mda_widgets_types.h"
-#include "mda_widgets_uid.h"
+#include "mda_widget_rtti.h"
+#include "mda_widget_types.h"
+#include "mda_widget_uid.h"
 
 mda_widget_rtti_t mda_widget_rtti_create(mda_widget_type_t type) {
     mda_widget_rtti_t rtti;

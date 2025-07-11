@@ -5,7 +5,7 @@
 #include "mda_attributes.h"
 #include "mda_context.h"
 #include "mda_constants.h"
-#include "mda_widgets.h"
+#include "mda_widget.h"
 #include <stdio.h>
 
 #define MDA_CONTEXT_TESTS &mda_context_test \

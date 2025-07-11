@@ -42,6 +42,7 @@ file(GLOB SOURCES
     CHESS/*.c
     MDA/*.c
     TDD/*.c
+    MEM/*.C
 )
 
 # message(Source list="${SOURCES}")

@@ -38,9 +38,19 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/jeremy/dosbox/XTCHESS/src/MDA/*.c")
 set(OLD_GLOB
   "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.c"
-  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets.c"
-  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_rtti.c"
-  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widgets_uid.c"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.c"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_border.c"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.c"
+  "/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_uid.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SOURCES at CMakeLists.txt:38 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/jeremy/dosbox/XTCHESS/src/MEM/*.C")
+set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
