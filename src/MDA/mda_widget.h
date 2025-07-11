@@ -71,12 +71,8 @@ mda_widget_composite_t* mda_widget_composite_create(
     uint8_t height
 );
 
-void mda_widget_composite_add(mda_widget_component_t* parent, mda_widget_component_t* child);
+void mda_widget_composite_add(mda_widget_composite_t* parent, mda_widget_component_t* child);
 
-void mda_widget_composite_remove(mda_widget_component_t* parent, mda_widget_component_t* child);
-
-
-
-
+mda_widget_component_t* mda_widget_composite_remove(mda_widget_composite_t* parent, mda_widget_component_t* child);
 
 #endif

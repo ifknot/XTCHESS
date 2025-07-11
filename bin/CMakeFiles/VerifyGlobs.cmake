@@ -25,9 +25,20 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # SOURCES at CMakeLists.txt:38 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/jeremy/dosbox/XTCHESS/src/CHESS/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/jeremy/dosbox/XTCHESS/src/CHES/*.c")
 set(OLD_GLOB
-  "/home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SOURCES at CMakeLists.txt:38 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/jeremy/dosbox/XTCHESS/src/DOS/*.c")
+set(OLD_GLOB
+  "/home/jeremy/dosbox/XTCHESS/src/DOS/dos_services.c"
+  "/home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_3x.c"
+  "/home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -49,8 +60,10 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # SOURCES at CMakeLists.txt:38 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/jeremy/dosbox/XTCHESS/src/MEM/*.C")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/jeremy/dosbox/XTCHESS/src/MEM/*.c")
 set(OLD_GLOB
+  "/home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.c"
+  "/home/jeremy/dosbox/XTCHESS/src/MEM/mem_tools.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

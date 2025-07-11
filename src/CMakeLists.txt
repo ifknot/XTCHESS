@@ -39,10 +39,11 @@ file(GLOB SOURCES
     CONFIGURE_DEPENDS
     *.c
     BIOS/*c
-    CHESS/*.c
+    DOS/*.c
     MDA/*.c
     TDD/*.c
-    MEM/*.C
+    MEM/*.c
+    CHES/*.c
 )
 
 # message(Source list="${SOURCES}")

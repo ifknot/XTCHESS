@@ -97,22 +97,48 @@ CMakeFiles/chess.dir/BIOS/bios_video_services.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/BIOS/bios_video_services.c.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj: CMakeFiles/chess.dir/flags.make
-CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj: /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj"
-	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
+CMakeFiles/chess.dir/DOS/dos_services.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/DOS/dos_services.c.obj: /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/chess.dir/DOS/dos_services.c.obj"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/DOS/dos_services.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services.c
 
-CMakeFiles/chess.dir/CHESS/xt_bitboard.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/CHESS/xt_bitboard.c.i"
-	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/CHESS/xt_bitboard.c.i -pl -cc /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c
+CMakeFiles/chess.dir/DOS/dos_services.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/DOS/dos_services.c.i"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/DOS/dos_services.c.i -pl -cc /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services.c
 
-CMakeFiles/chess.dir/CHESS/xt_bitboard.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/CHESS/xt_bitboard.c.s"
+CMakeFiles/chess.dir/DOS/dos_services.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/DOS/dos_services.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/chess.dir/DOS/dos_services_3x.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/DOS/dos_services_3x.c.obj: /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_3x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/chess.dir/DOS/dos_services_3x.c.obj"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/DOS/dos_services_3x.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_3x.c
+
+CMakeFiles/chess.dir/DOS/dos_services_3x.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/DOS/dos_services_3x.c.i"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/DOS/dos_services_3x.c.i -pl -cc /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_3x.c
+
+CMakeFiles/chess.dir/DOS/dos_services_3x.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/DOS/dos_services_3x.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/chess.dir/DOS/dos_services_files.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/DOS/dos_services_files.c.obj: /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/chess.dir/DOS/dos_services_files.c.obj"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/DOS/dos_services_files.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files.c
+
+CMakeFiles/chess.dir/DOS/dos_services_files.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/DOS/dos_services_files.c.i"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/DOS/dos_services_files.c.i -pl -cc /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files.c
+
+CMakeFiles/chess.dir/DOS/dos_services_files.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/DOS/dos_services_files.c.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/chess.dir/MDA/mda_context.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/MDA/mda_context.c.obj: /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/chess.dir/MDA/mda_context.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/chess.dir/MDA/mda_context.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MDA/mda_context.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.c
 
 CMakeFiles/chess.dir/MDA/mda_context.c.i: cmake_force
@@ -125,7 +151,7 @@ CMakeFiles/chess.dir/MDA/mda_context.c.s: cmake_force
 
 CMakeFiles/chess.dir/MDA/mda_widget.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/MDA/mda_widget.c.obj: /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/chess.dir/MDA/mda_widget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/chess.dir/MDA/mda_widget.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MDA/mda_widget.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.c
 
 CMakeFiles/chess.dir/MDA/mda_widget.c.i: cmake_force
@@ -138,7 +164,7 @@ CMakeFiles/chess.dir/MDA/mda_widget.c.s: cmake_force
 
 CMakeFiles/chess.dir/MDA/mda_widget_border.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/MDA/mda_widget_border.c.obj: /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_border.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/chess.dir/MDA/mda_widget_border.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/chess.dir/MDA/mda_widget_border.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MDA/mda_widget_border.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_border.c
 
 CMakeFiles/chess.dir/MDA/mda_widget_border.c.i: cmake_force
@@ -151,7 +177,7 @@ CMakeFiles/chess.dir/MDA/mda_widget_border.c.s: cmake_force
 
 CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj: /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.c
 
 CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.i: cmake_force
@@ -164,7 +190,7 @@ CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.s: cmake_force
 
 CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj: /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_uid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_uid.c
 
 CMakeFiles/chess.dir/MDA/mda_widget_uid.c.i: cmake_force
@@ -175,9 +201,35 @@ CMakeFiles/chess.dir/MDA/mda_widget_uid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/MDA/mda_widget_uid.c.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
 
+CMakeFiles/chess.dir/MEM/mem_arena.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/MEM/mem_arena.c.obj: /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/chess.dir/MEM/mem_arena.c.obj"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MEM/mem_arena.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.c
+
+CMakeFiles/chess.dir/MEM/mem_arena.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/MEM/mem_arena.c.i"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MEM/mem_arena.c.i -pl -cc /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.c
+
+CMakeFiles/chess.dir/MEM/mem_arena.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/MEM/mem_arena.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/chess.dir/MEM/mem_tools.c.obj: CMakeFiles/chess.dir/flags.make
+CMakeFiles/chess.dir/MEM/mem_tools.c.obj: /home/jeremy/dosbox/XTCHESS/src/MEM/mem_tools.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/chess.dir/MEM/mem_tools.c.obj"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MEM/mem_tools.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/MEM/mem_tools.c
+
+CMakeFiles/chess.dir/MEM/mem_tools.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chess.dir/MEM/mem_tools.c.i"
+	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/MEM/mem_tools.c.i -pl -cc /home/jeremy/dosbox/XTCHESS/src/MEM/mem_tools.c
+
+CMakeFiles/chess.dir/MEM/mem_tools.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chess.dir/MEM/mem_tools.c.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+
 CMakeFiles/chess.dir/TDD/tdd_progress.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/TDD/tdd_progress.c.obj: /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/chess.dir/TDD/tdd_progress.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_progress.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.c
 
 CMakeFiles/chess.dir/TDD/tdd_progress.c.i: cmake_force
@@ -190,7 +242,7 @@ CMakeFiles/chess.dir/TDD/tdd_progress.c.s: cmake_force
 
 CMakeFiles/chess.dir/TDD/tdd_report.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/TDD/tdd_report.c.obj: /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_report.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/chess.dir/TDD/tdd_report.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_report.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_report.c
 
 CMakeFiles/chess.dir/TDD/tdd_report.c.i: cmake_force
@@ -203,7 +255,7 @@ CMakeFiles/chess.dir/TDD/tdd_report.c.s: cmake_force
 
 CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj: /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_spinner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/TDD/tdd_spinner.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_spinner.c
 
 CMakeFiles/chess.dir/TDD/tdd_spinner.c.i: cmake_force
@@ -216,7 +268,7 @@ CMakeFiles/chess.dir/TDD/tdd_spinner.c.s: cmake_force
 
 CMakeFiles/chess.dir/main.c.obj: CMakeFiles/chess.dir/flags.make
 CMakeFiles/chess.dir/main.c.obj: /home/jeremy/dosbox/XTCHESS/src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/chess.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/chess.dir/main.c.obj"
 	wcl -zq -d+ $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -foCMakeFiles/chess.dir/main.c.obj -c -cc /home/jeremy/dosbox/XTCHESS/src/main.c
 
 CMakeFiles/chess.dir/main.c.i: cmake_force
@@ -232,12 +284,16 @@ chess_OBJECTS = &
 "'CMakeFiles/chess.dir/BIOS/bios_memory_size.c.obj'" &
 "'CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.obj'" &
 "'CMakeFiles/chess.dir/BIOS/bios_video_services.c.obj'" &
-"'CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj'" &
+"'CMakeFiles/chess.dir/DOS/dos_services.c.obj'" &
+"'CMakeFiles/chess.dir/DOS/dos_services_3x.c.obj'" &
+"'CMakeFiles/chess.dir/DOS/dos_services_files.c.obj'" &
 "'CMakeFiles/chess.dir/MDA/mda_context.c.obj'" &
 "'CMakeFiles/chess.dir/MDA/mda_widget.c.obj'" &
 "'CMakeFiles/chess.dir/MDA/mda_widget_border.c.obj'" &
 "'CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj'" &
 "'CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj'" &
+"'CMakeFiles/chess.dir/MEM/mem_arena.c.obj'" &
+"'CMakeFiles/chess.dir/MEM/mem_tools.c.obj'" &
 "'CMakeFiles/chess.dir/TDD/tdd_progress.c.obj'" &
 "'CMakeFiles/chess.dir/TDD/tdd_report.c.obj'" &
 "'CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj'" &
@@ -249,19 +305,23 @@ chess_EXTERNAL_OBJECTS =
 chess.exe: CMakeFiles/chess.dir/BIOS/bios_memory_size.c.obj
 chess.exe: CMakeFiles/chess.dir/BIOS/bios_timer_io_services.c.obj
 chess.exe: CMakeFiles/chess.dir/BIOS/bios_video_services.c.obj
-chess.exe: CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj
+chess.exe: CMakeFiles/chess.dir/DOS/dos_services.c.obj
+chess.exe: CMakeFiles/chess.dir/DOS/dos_services_3x.c.obj
+chess.exe: CMakeFiles/chess.dir/DOS/dos_services_files.c.obj
 chess.exe: CMakeFiles/chess.dir/MDA/mda_context.c.obj
 chess.exe: CMakeFiles/chess.dir/MDA/mda_widget.c.obj
 chess.exe: CMakeFiles/chess.dir/MDA/mda_widget_border.c.obj
 chess.exe: CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj
 chess.exe: CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj
+chess.exe: CMakeFiles/chess.dir/MEM/mem_arena.c.obj
+chess.exe: CMakeFiles/chess.dir/MEM/mem_tools.c.obj
 chess.exe: CMakeFiles/chess.dir/TDD/tdd_progress.c.obj
 chess.exe: CMakeFiles/chess.dir/TDD/tdd_report.c.obj
 chess.exe: CMakeFiles/chess.dir/TDD/tdd_spinner.c.obj
 chess.exe: CMakeFiles/chess.dir/main.c.obj
 chess.exe: CMakeFiles/chess.dir/build.make
 chess.exe: CMakeFiles/chess.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable chess.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jeremy/dosbox/XTCHESS/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable chess.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chess.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -24,14 +24,39 @@ CMakeFiles/chess.dir/BIOS/bios_video_services.c.obj: &
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h &
  /opt/watcom/h/cstdint &
  /opt/watcom/h/stdint.h
-CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj: &
- /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.c &
- /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_bitboard.h &
- /home/jeremy/dosbox/XTCHESS/src/CHESS/xt_types.h &
+CMakeFiles/chess.dir/DOS/dos_services.c.obj: &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_error_messages.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services.c &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_constants.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_types.h &
  /opt/watcom/h/_comdef.h &
- /opt/watcom/h/assert.h &
+ /opt/watcom/h/cstdint &
+ /opt/watcom/h/cstdio &
+ /opt/watcom/h/stdint.h &
+ /opt/watcom/h/stdio.h &
+ /opt/watcom/h/sys/_lfndos.h
+CMakeFiles/chess.dir/DOS/dos_services_3x.c.obj: &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_error_messages.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_3x.c &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_3x.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_3x_types.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_constants.h &
  /opt/watcom/h/cstdint &
  /opt/watcom/h/stdint.h
+CMakeFiles/chess.dir/DOS/dos_services_files.c.obj: &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_error_messages.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_constants.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files.c &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files_types.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_types.h &
+ /opt/watcom/h/_comdef.h &
+ /opt/watcom/h/cstdint &
+ /opt/watcom/h/cstdio &
+ /opt/watcom/h/stdint.h &
+ /opt/watcom/h/stdio.h &
+ /opt/watcom/h/sys/_lfndos.h
 CMakeFiles/chess.dir/MDA/mda_context.c.obj: &
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h &
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h &
@@ -55,6 +80,7 @@ CMakeFiles/chess.dir/MDA/mda_widget.c.obj: &
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h &
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.c &
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.h &
+ /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_constants.h &
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.h &
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_types.h &
  /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.h &
@@ -115,6 +141,48 @@ CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj: &
  /opt/watcom/h/assert.h &
  /opt/watcom/h/cstdint &
  /opt/watcom/h/stdint.h
+CMakeFiles/chess.dir/MEM/mem_arena.c.obj: &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_constants.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files_types.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_types.h &
+ /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.c &
+ /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.h &
+ /home/jeremy/dosbox/XTCHESS/src/MEM/mem_constants.h &
+ /home/jeremy/dosbox/XTCHESS/src/MEM/mem_tools.h &
+ /home/jeremy/dosbox/XTCHESS/src/MEM/mem_types.h &
+ /opt/watcom/h/_comdef.h &
+ /opt/watcom/h/assert.h &
+ /opt/watcom/h/cstddef &
+ /opt/watcom/h/cstdint &
+ /opt/watcom/h/cstdio &
+ /opt/watcom/h/cstdlib &
+ /opt/watcom/h/cstring &
+ /opt/watcom/h/memory.h &
+ /opt/watcom/h/stddef.h &
+ /opt/watcom/h/stdint.h &
+ /opt/watcom/h/stdio.h &
+ /opt/watcom/h/stdlib.h &
+ /opt/watcom/h/string.h &
+ /opt/watcom/h/sys/_lfndos.h
+CMakeFiles/chess.dir/MEM/mem_tools.c.obj: &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_files_types.h &
+ /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_types.h &
+ /home/jeremy/dosbox/XTCHESS/src/MEM/mem_tools.c &
+ /home/jeremy/dosbox/XTCHESS/src/MEM/mem_tools.h &
+ /home/jeremy/dosbox/XTCHESS/src/MEM/mem_types.h &
+ /opt/watcom/h/_comdef.h &
+ /opt/watcom/h/assert.h &
+ /opt/watcom/h/cstddef &
+ /opt/watcom/h/cstdint &
+ /opt/watcom/h/cstdio &
+ /opt/watcom/h/cstring &
+ /opt/watcom/h/stddef.h &
+ /opt/watcom/h/stdint.h &
+ /opt/watcom/h/stdio.h &
+ /opt/watcom/h/string.h &
+ /opt/watcom/h/sys/_lfndos.h
 CMakeFiles/chess.dir/TDD/tdd_progress.c.obj: &
  /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_on_escape.h &
  /home/jeremy/dosbox/XTCHESS/src/TDD/tdd_progress.c &

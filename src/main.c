@@ -9,8 +9,10 @@
  * TODO:
  * [ ] bios scrolling
  * [ ] upgraded context
- * [ ] widget composite pattern
- * [ ] chess board
+ * [...] widget composite pattern
+ *  [ ] widget panel
+ *  [ ] widget border
+ *  [ ] widget chess board
  * [ ] maps
  * [ ] locations with doors
  * [ ] parse moving around locations

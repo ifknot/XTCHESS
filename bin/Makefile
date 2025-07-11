@@ -224,29 +224,77 @@ BIOS/bios_video_services.c.s: .SYMBOLIC
 BIOS/bios_video_services.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/BIOS/bios_video_services.c.s
 
-CHESS/xt_bitboard.obj: .SYMBOLIC
-CHESS/xt_bitboard.obj: CHESS/xt_bitboard.c.obj
+DOS/dos_services.obj: .SYMBOLIC
+DOS/dos_services.obj: DOS/dos_services.c.obj
 
 # target to build an object file
-CHESS/xt_bitboard.c.obj: .SYMBOLIC
-CHESS/xt_bitboard.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/CHESS/xt_bitboard.c.obj
+DOS/dos_services.c.obj: .SYMBOLIC
+DOS/dos_services.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services.c.obj
 
-CHESS/xt_bitboard.i: .SYMBOLIC
-CHESS/xt_bitboard.i: CHESS/xt_bitboard.c.i
+DOS/dos_services.i: .SYMBOLIC
+DOS/dos_services.i: DOS/dos_services.c.i
 
 # target to preprocess a source file
-CHESS/xt_bitboard.c.i: .SYMBOLIC
-CHESS/xt_bitboard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/CHESS/xt_bitboard.c.i
+DOS/dos_services.c.i: .SYMBOLIC
+DOS/dos_services.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services.c.i
 
-CHESS/xt_bitboard.s: .SYMBOLIC
-CHESS/xt_bitboard.s: CHESS/xt_bitboard.c.s
+DOS/dos_services.s: .SYMBOLIC
+DOS/dos_services.s: DOS/dos_services.c.s
 
 # target to generate assembly for a file
-CHESS/xt_bitboard.c.s: .SYMBOLIC
-CHESS/xt_bitboard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/CHESS/xt_bitboard.c.s
+DOS/dos_services.c.s: .SYMBOLIC
+DOS/dos_services.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services.c.s
+
+DOS/dos_services_3x.obj: .SYMBOLIC
+DOS/dos_services_3x.obj: DOS/dos_services_3x.c.obj
+
+# target to build an object file
+DOS/dos_services_3x.c.obj: .SYMBOLIC
+DOS/dos_services_3x.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services_3x.c.obj
+
+DOS/dos_services_3x.i: .SYMBOLIC
+DOS/dos_services_3x.i: DOS/dos_services_3x.c.i
+
+# target to preprocess a source file
+DOS/dos_services_3x.c.i: .SYMBOLIC
+DOS/dos_services_3x.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services_3x.c.i
+
+DOS/dos_services_3x.s: .SYMBOLIC
+DOS/dos_services_3x.s: DOS/dos_services_3x.c.s
+
+# target to generate assembly for a file
+DOS/dos_services_3x.c.s: .SYMBOLIC
+DOS/dos_services_3x.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services_3x.c.s
+
+DOS/dos_services_files.obj: .SYMBOLIC
+DOS/dos_services_files.obj: DOS/dos_services_files.c.obj
+
+# target to build an object file
+DOS/dos_services_files.c.obj: .SYMBOLIC
+DOS/dos_services_files.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services_files.c.obj
+
+DOS/dos_services_files.i: .SYMBOLIC
+DOS/dos_services_files.i: DOS/dos_services_files.c.i
+
+# target to preprocess a source file
+DOS/dos_services_files.c.i: .SYMBOLIC
+DOS/dos_services_files.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services_files.c.i
+
+DOS/dos_services_files.s: .SYMBOLIC
+DOS/dos_services_files.s: DOS/dos_services_files.c.s
+
+# target to generate assembly for a file
+DOS/dos_services_files.c.s: .SYMBOLIC
+DOS/dos_services_files.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/DOS/dos_services_files.c.s
 
 MDA/mda_context.obj: .SYMBOLIC
 MDA/mda_context.obj: MDA/mda_context.c.obj
@@ -368,6 +416,54 @@ MDA/mda_widget_uid.c.s: .SYMBOLIC
 MDA/mda_widget_uid.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_uid.c.s
 
+MEM/mem_arena.obj: .SYMBOLIC
+MEM/mem_arena.obj: MEM/mem_arena.c.obj
+
+# target to build an object file
+MEM/mem_arena.c.obj: .SYMBOLIC
+MEM/mem_arena.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MEM/mem_arena.c.obj
+
+MEM/mem_arena.i: .SYMBOLIC
+MEM/mem_arena.i: MEM/mem_arena.c.i
+
+# target to preprocess a source file
+MEM/mem_arena.c.i: .SYMBOLIC
+MEM/mem_arena.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MEM/mem_arena.c.i
+
+MEM/mem_arena.s: .SYMBOLIC
+MEM/mem_arena.s: MEM/mem_arena.c.s
+
+# target to generate assembly for a file
+MEM/mem_arena.c.s: .SYMBOLIC
+MEM/mem_arena.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MEM/mem_arena.c.s
+
+MEM/mem_tools.obj: .SYMBOLIC
+MEM/mem_tools.obj: MEM/mem_tools.c.obj
+
+# target to build an object file
+MEM/mem_tools.c.obj: .SYMBOLIC
+MEM/mem_tools.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MEM/mem_tools.c.obj
+
+MEM/mem_tools.i: .SYMBOLIC
+MEM/mem_tools.i: MEM/mem_tools.c.i
+
+# target to preprocess a source file
+MEM/mem_tools.c.i: .SYMBOLIC
+MEM/mem_tools.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MEM/mem_tools.c.i
+
+MEM/mem_tools.s: .SYMBOLIC
+MEM/mem_tools.s: MEM/mem_tools.c.s
+
+# target to generate assembly for a file
+MEM/mem_tools.c.s: .SYMBOLIC
+MEM/mem_tools.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MEM/mem_tools.c.s
+
 TDD/tdd_progress.obj: .SYMBOLIC
 TDD/tdd_progress.obj: TDD/tdd_progress.c.obj
 
@@ -486,9 +582,15 @@ help:
 	@echo "... BIOS/bios_video_services.obj"
 	@echo "... BIOS/bios_video_services.i"
 	@echo "... BIOS/bios_video_services.s"
-	@echo "... CHESS/xt_bitboard.obj"
-	@echo "... CHESS/xt_bitboard.i"
-	@echo "... CHESS/xt_bitboard.s"
+	@echo "... DOS/dos_services.obj"
+	@echo "... DOS/dos_services.i"
+	@echo "... DOS/dos_services.s"
+	@echo "... DOS/dos_services_3x.obj"
+	@echo "... DOS/dos_services_3x.i"
+	@echo "... DOS/dos_services_3x.s"
+	@echo "... DOS/dos_services_files.obj"
+	@echo "... DOS/dos_services_files.i"
+	@echo "... DOS/dos_services_files.s"
 	@echo "... MDA/mda_context.obj"
 	@echo "... MDA/mda_context.i"
 	@echo "... MDA/mda_context.s"
@@ -504,6 +606,12 @@ help:
 	@echo "... MDA/mda_widget_uid.obj"
 	@echo "... MDA/mda_widget_uid.i"
 	@echo "... MDA/mda_widget_uid.s"
+	@echo "... MEM/mem_arena.obj"
+	@echo "... MEM/mem_arena.i"
+	@echo "... MEM/mem_arena.s"
+	@echo "... MEM/mem_tools.obj"
+	@echo "... MEM/mem_tools.i"
+	@echo "... MEM/mem_tools.s"
 	@echo "... TDD/tdd_progress.obj"
 	@echo "... TDD/tdd_progress.i"
 	@echo "... TDD/tdd_progress.s"
