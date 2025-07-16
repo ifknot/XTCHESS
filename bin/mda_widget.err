@@ -1,0 +1,2 @@
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_constants.h(4): Warning! W140: Definition of macro 'MDA_WIDGET_MAX_CHILDREN' not identical to previous definition
+/home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_constants.h(4): Note! I2002: 'MDA_WIDGET_MAX_CHILDREN' defined in: /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.h(9)

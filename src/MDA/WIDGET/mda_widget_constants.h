@@ -1,0 +1,6 @@
+#ifndef MDA_WIDGET_CONSTANTS_H
+#define MDA_WIDGET_CONSTANTS_H
+
+#define MDA_WIDGET_MAX_CHILDREN 16
+
+#endif
