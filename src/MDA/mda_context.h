@@ -2,15 +2,8 @@
 #define MDA_CONTEXT_H
 
 #include "../BIOS/bios_video_services.h"
+#include "mda_types.h"
 #include <stdbool.h>
-
-typedef union {
-    uint16_t char_attr;
-    struct {
-        char chr;
-        char attr;
-    } parts;
-} mda_char_attr_t;
 
 // having different contexts enables manage different parts of the screen in a window-esque way
 typedef struct {

@@ -3,9 +3,9 @@
 
 #include "../TDD/tdd_macros.h"
 #include "mda_attributes.h"
-#include "mda_context.h"
+#include "mda_types.h"
 #include "mda_constants.h"
-#include "mda_widget.h"
+#include "WIDGET/mda_widget_composite.h"
 #include <stdio.h>
 
 #define MDA_CONTEXT_TESTS &mda_context_test \
@@ -60,7 +60,8 @@ TEST(mda_context_test) {
 
 TEST(mda_widgets_test) {
     mda_context_t ctx;
-    //mda_widget_context_border(
+    mda_initialize_default_context(&ctx);
+
 }
 
 #endif

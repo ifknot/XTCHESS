@@ -72,75 +72,6 @@ CMakeFiles/chess.dir/MDA/mda_context.c.obj
  /opt/watcom/h/cstdint
  /opt/watcom/h/stdbool.h
  /opt/watcom/h/stdint.h
-CMakeFiles/chess.dir/MDA/mda_widget.c.obj
- /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h
- /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
- /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.c
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_constants.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_types.h
- /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.h
- /home/jeremy/dosbox/XTCHESS/src/MEM/mem_constants.h
- /home/jeremy/dosbox/XTCHESS/src/MEM/mem_types.h
- /opt/watcom/h/_comdef.h
- /opt/watcom/h/assert.h
- /opt/watcom/h/cstdbool
- /opt/watcom/h/cstddef
- /opt/watcom/h/cstdint
- /opt/watcom/h/cstdio
- /opt/watcom/h/stdbool.h
- /opt/watcom/h/stddef.h
- /opt/watcom/h/stdint.h
- /opt/watcom/h/stdio.h
- /opt/watcom/h/sys/_lfndos.h
-CMakeFiles/chess.dir/MDA/mda_widget_border.c.obj
- /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h
- /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
- /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_border.c
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_border.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_types.h
- /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.h
- /home/jeremy/dosbox/XTCHESS/src/MEM/mem_constants.h
- /home/jeremy/dosbox/XTCHESS/src/MEM/mem_types.h
- /opt/watcom/h/_comdef.h
- /opt/watcom/h/assert.h
- /opt/watcom/h/cstdbool
- /opt/watcom/h/cstddef
- /opt/watcom/h/cstdint
- /opt/watcom/h/cstdio
- /opt/watcom/h/stdbool.h
- /opt/watcom/h/stddef.h
- /opt/watcom/h/stdint.h
- /opt/watcom/h/stdio.h
- /opt/watcom/h/sys/_lfndos.h
-CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj
- /home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.c
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_types.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_uid.h
- /opt/watcom/h/cstdbool
- /opt/watcom/h/cstdint
- /opt/watcom/h/stdbool.h
- /opt/watcom/h/stdint.h
-CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj
- /home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_types.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_uid.c
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_uid.h
- /opt/watcom/h/_comdef.h
- /opt/watcom/h/assert.h
- /opt/watcom/h/cstdint
- /opt/watcom/h/stdint.h
 CMakeFiles/chess.dir/MEM/mem_arena.c.obj
  /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services.h
  /home/jeremy/dosbox/XTCHESS/src/DOS/dos_services_constants.h
@@ -223,13 +154,13 @@ CMakeFiles/chess.dir/main.c.obj
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services.h
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_constants.h
  /home/jeremy/dosbox/XTCHESS/src/BIOS/bios_video_services_types.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/WIDGET/mda_widget_composite.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/WIDGET/mda_widget_rtti.h
+ /home/jeremy/dosbox/XTCHESS/src/MDA/WIDGET/mda_widget_types.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/cp437_constants.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_attributes.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_constants.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/mda_context.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_rtti.h
- /home/jeremy/dosbox/XTCHESS/src/MDA/mda_widget_types.h
  /home/jeremy/dosbox/XTCHESS/src/MDA/test_mda_context.h
  /home/jeremy/dosbox/XTCHESS/src/MEM/mem_arena.h
  /home/jeremy/dosbox/XTCHESS/src/MEM/mem_constants.h

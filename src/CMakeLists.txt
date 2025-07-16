@@ -41,6 +41,7 @@ file(GLOB SOURCES
     BIOS/*c
     DOS/*.c
     MDA/*.c
+    MDA/WIDGET/*.C
     TDD/*.c
     MEM/*.c
     CHES/*.c

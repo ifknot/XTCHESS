@@ -320,102 +320,6 @@ MDA/mda_context.c.s: .SYMBOLIC
 MDA/mda_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_context.c.s
 
-MDA/mda_widget.obj: .SYMBOLIC
-MDA/mda_widget.obj: MDA/mda_widget.c.obj
-
-# target to build an object file
-MDA/mda_widget.c.obj: .SYMBOLIC
-MDA/mda_widget.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget.c.obj
-
-MDA/mda_widget.i: .SYMBOLIC
-MDA/mda_widget.i: MDA/mda_widget.c.i
-
-# target to preprocess a source file
-MDA/mda_widget.c.i: .SYMBOLIC
-MDA/mda_widget.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget.c.i
-
-MDA/mda_widget.s: .SYMBOLIC
-MDA/mda_widget.s: MDA/mda_widget.c.s
-
-# target to generate assembly for a file
-MDA/mda_widget.c.s: .SYMBOLIC
-MDA/mda_widget.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget.c.s
-
-MDA/mda_widget_border.obj: .SYMBOLIC
-MDA/mda_widget_border.obj: MDA/mda_widget_border.c.obj
-
-# target to build an object file
-MDA/mda_widget_border.c.obj: .SYMBOLIC
-MDA/mda_widget_border.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_border.c.obj
-
-MDA/mda_widget_border.i: .SYMBOLIC
-MDA/mda_widget_border.i: MDA/mda_widget_border.c.i
-
-# target to preprocess a source file
-MDA/mda_widget_border.c.i: .SYMBOLIC
-MDA/mda_widget_border.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_border.c.i
-
-MDA/mda_widget_border.s: .SYMBOLIC
-MDA/mda_widget_border.s: MDA/mda_widget_border.c.s
-
-# target to generate assembly for a file
-MDA/mda_widget_border.c.s: .SYMBOLIC
-MDA/mda_widget_border.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_border.c.s
-
-MDA/mda_widget_rtti.obj: .SYMBOLIC
-MDA/mda_widget_rtti.obj: MDA/mda_widget_rtti.c.obj
-
-# target to build an object file
-MDA/mda_widget_rtti.c.obj: .SYMBOLIC
-MDA/mda_widget_rtti.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.obj
-
-MDA/mda_widget_rtti.i: .SYMBOLIC
-MDA/mda_widget_rtti.i: MDA/mda_widget_rtti.c.i
-
-# target to preprocess a source file
-MDA/mda_widget_rtti.c.i: .SYMBOLIC
-MDA/mda_widget_rtti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.i
-
-MDA/mda_widget_rtti.s: .SYMBOLIC
-MDA/mda_widget_rtti.s: MDA/mda_widget_rtti.c.s
-
-# target to generate assembly for a file
-MDA/mda_widget_rtti.c.s: .SYMBOLIC
-MDA/mda_widget_rtti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_rtti.c.s
-
-MDA/mda_widget_uid.obj: .SYMBOLIC
-MDA/mda_widget_uid.obj: MDA/mda_widget_uid.c.obj
-
-# target to build an object file
-MDA/mda_widget_uid.c.obj: .SYMBOLIC
-MDA/mda_widget_uid.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_uid.c.obj
-
-MDA/mda_widget_uid.i: .SYMBOLIC
-MDA/mda_widget_uid.i: MDA/mda_widget_uid.c.i
-
-# target to preprocess a source file
-MDA/mda_widget_uid.c.i: .SYMBOLIC
-MDA/mda_widget_uid.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_uid.c.i
-
-MDA/mda_widget_uid.s: .SYMBOLIC
-MDA/mda_widget_uid.s: MDA/mda_widget_uid.c.s
-
-# target to generate assembly for a file
-MDA/mda_widget_uid.c.s: .SYMBOLIC
-MDA/mda_widget_uid.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess.dir/build.make -h CMakeFiles/chess.dir/MDA/mda_widget_uid.c.s
-
 MEM/mem_arena.obj: .SYMBOLIC
 MEM/mem_arena.obj: MEM/mem_arena.c.obj
 
@@ -594,18 +498,6 @@ help:
 	@echo "... MDA/mda_context.obj"
 	@echo "... MDA/mda_context.i"
 	@echo "... MDA/mda_context.s"
-	@echo "... MDA/mda_widget.obj"
-	@echo "... MDA/mda_widget.i"
-	@echo "... MDA/mda_widget.s"
-	@echo "... MDA/mda_widget_border.obj"
-	@echo "... MDA/mda_widget_border.i"
-	@echo "... MDA/mda_widget_border.s"
-	@echo "... MDA/mda_widget_rtti.obj"
-	@echo "... MDA/mda_widget_rtti.i"
-	@echo "... MDA/mda_widget_rtti.s"
-	@echo "... MDA/mda_widget_uid.obj"
-	@echo "... MDA/mda_widget_uid.i"
-	@echo "... MDA/mda_widget_uid.s"
 	@echo "... MEM/mem_arena.obj"
 	@echo "... MEM/mem_arena.i"
 	@echo "... MEM/mem_arena.s"
