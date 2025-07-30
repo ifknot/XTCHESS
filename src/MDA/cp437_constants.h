@@ -11,7 +11,7 @@ typedef enum {
     // =============================================
     // Control Characters (0x00-0x1F) + IBM Symbols
     // =============================================
-    CP437_NULL                   = 0x00,  // ^@ (Null)
+    CP437_NULL                   = 0x00,  //   (Null)
     CP437_SMILING_FACE           = 0x01,  // ☺ (IBM: Smiling face)
     CP437_INVERSE_SMILING_FACE   = 0x02,  // ☻ (IBM: Inverse smiling face)
     CP437_HEART                  = 0x03,  // ♥ (IBM: Heart)
@@ -49,7 +49,7 @@ typedef enum {
     // =============================================
     CP437_SPACE                  = 0x20,  // (Space)
     CP437_EXCLAMATION            = 0x21,  // !
-    // ... (omitted for brevity; add as needed) ...
+    // add as and when...
     CP437_TILDE                  = 0x7E,  // ~
 
     // =============================================
